@@ -1,4 +1,5 @@
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -9,9 +10,10 @@ const Footer = () => {
 
           {/* Brand */}
           <div className="footer-col">
-            <div className="brand-logo footer-logo">
+            <Link to="/" className="footer-logo">
               Mord<span>Spark</span>
-            </div>
+            </Link>
+
             <p>
               Delivering excellence in technology and consulting since 2010.
               Your trusted partner for digital transformation.

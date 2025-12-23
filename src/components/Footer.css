@@ -48,10 +48,24 @@
 }
 
 /* LOGO */
-.footer-logo {
-  font-size: 24px;
-  font-weight: 800;
+.footer-col .footer-logo {
+  font-size: 24px;           
+  font-weight: bolder;
   margin-bottom: 20px;
+  color: white;
+
+  cursor: pointer;             
+  text-decoration: none !important;
+
+  display: inline-flex;
+  align-items: center;
+  letter-spacing: 0.5px;
+}
+
+.footer-logo:hover,
+.footer-logo:focus,
+.footer-logo:active {
+  text-decoration: none !important;
   color: #ffffff;
 }
 
@@ -114,5 +128,11 @@
 
   .social-links {
     justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-logo {
+    font-size: 36px;   /* Still big on mobile */
   }
 }
