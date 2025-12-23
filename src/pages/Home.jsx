@@ -2,6 +2,7 @@ import "./home.css";
 
 const Home = () => {
     return (
+    <>
         <main id="main-content">
             <section id="hero" className="hero-section">
                 <div className="container hero-grid">
@@ -689,6 +690,7 @@ const Home = () => {
                 </div>
             </section>
         </main>
+    </>    
     );
 };
 
