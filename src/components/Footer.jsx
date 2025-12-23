@@ -24,11 +24,12 @@ const Footer = () => {
           <div className="footer-col">
             <h4>About MordSpark</h4>
             <ul className="footer-links">
-              <li><a href="/about">About Us</a></li>
-              <li><a href="/blog">News & Blog</a></li>
-              <li><a href="/contact">Contact</a></li>
+              <li><Link to="/about">About Us</Link></li>
+              <li><Link to="/blog">News & Blog</Link></li>
+              <li><Link to="/contact">Contact</Link></li>
             </ul>
           </div>
+
 
           {/* Services */}
           <div className="footer-col">

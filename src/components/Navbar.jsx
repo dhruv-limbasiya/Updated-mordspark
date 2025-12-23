@@ -26,8 +26,7 @@ const Navbar = () => {
         >
           <i className="fa-solid fa-bars"></i>
         </button>
-
-        {/* 👇 ADD nav-primary */}
+        
         <nav className={`nav-links nav-primary ${open ? "active" : ""}`}>
           <Link to="/" className="nav-item">Home</Link>
           <Link to="/services" className="nav-item">Services</Link>
