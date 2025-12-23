@@ -3,24 +3,44 @@
 .site-header {
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
-  background: #fff;
+  background: var(--clr-white);
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
   z-index: 1000;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  padding: 1rem 0;
+}
+
+.nav-links {
+  display: flex;
+  gap: var(--sp-lg);
+  align-items: center;
+}
+
+.nav-item {
+  font-weight: 500;
+  color: var(--clr-text-dark);
+  font-size: 0.95rem;
+  position: relative;
+}
+
+.nav-item:hover {
+  color: var(--clr-secondary);
 }
 
 .nav-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 72px;
 }
+
 
 .brand-logo {
   font-size: 1.6rem;
   font-weight: 800;
   color: #0a3d62;
 }
+
 .brand-logo span {
   color: #1e90ff;
 }
