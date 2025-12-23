@@ -37,14 +37,7 @@ const Services = () => {
                                         flexWrap: "wrap",
                                     }}
                                 >
-                                    <a
-                                        href="#contact"
-                                        className="btn btn-secondary"
-                                        style={{
-                                            borderColor: "white",
-                                            color: "white",
-                                        }}
-                                    >
+                                    <a href="#contact" className="btn btn-secondary btn-quote" style={{borderColor: "white",color: "white"}}>
                                         Get a Quote
                                     </a>
                                     <a

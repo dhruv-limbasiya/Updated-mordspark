@@ -176,6 +176,20 @@
             background-color: var(--clr-light);
             transform: translateY(-2px);
         }
+        .btn.btn-secondary.btn-quote {
+        border-color: #ffffff;
+        color: #ffffff;
+        background: transparent;
+        transition: all 0.3s ease;
+        }
+
+        .btn.btn-secondary.btn-quote:hover {
+        background-color: rgba(255, 255, 255, 0.1); /* subtle glass effect */
+        color: #ffffff;
+        transform: translateY(-2px);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+
 
         /* Cards */
         .card {

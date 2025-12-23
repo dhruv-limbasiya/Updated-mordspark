@@ -158,7 +158,7 @@ const AboutUs = () => {
           </div>
 
           <div className="team-grid">
-            {["James Sterling", "Elena Rodriguez", "David Chen", "Sarah Jenkins"].map(
+            {["Aditya Pande", "Harshal Mahajan", "Dhruv Limbasiya", "Rishi Patel", "Smit Gadhiya", "MD Sadab", "Fenil Dhanani", "Jatin Dhokiya"].map(
               (name, index) => (
                 <div className="team-card" key={index}>
                   <div className="team-img-box">
@@ -173,7 +173,7 @@ const AboutUs = () => {
                     <p style={{ fontSize: "0.9rem", marginBottom: "10px" }}>
                       Industry veteran with deep strategic expertise.
                     </p>
-                    <div className="team-social">
+                    <div className="team-social" style={{gap: "12px",display: "flex", marginTop: "15px"}}>
                       <a href="#"><i className="fa-brands fa-linkedin"></i></a>
                       <a href="#"><i className="fa-brands fa-twitter"></i></a>
                     </div>
