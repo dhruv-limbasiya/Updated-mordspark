@@ -181,22 +181,8 @@
   }
 }
 
-/* HERO */
-
-
-.hero-center {
-  display: block;
-  max-width: 800px;
-  margin: 0 auto;
-}
 
 /* STORY */
-.story-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 104px;
-  align-items: center;
-}
 
 .story-image img {
   border-radius: 12px;
@@ -310,5 +296,97 @@
 
   .stats-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 1200px) {
+  .about-root .section-padding {
+    padding: 80px 0;
+  }
+
+  .about-root .hero-split,
+  .about-root .story-grid {
+    gap: 64px;
+  }
+
+  .about-root .stat-number {
+    font-size: 3rem;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .about-root .hero-split,
+  .about-root .story-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .about-root .story-image {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .about-root .section-header {
+    margin-bottom: 48px;
+  }
+
+  .about-root .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+@media (max-width: 768px) {
+  .about-root .section-padding {
+    padding: 64px 0;
+  }
+
+  .about-root h1 {
+    font-size: 2.2rem;
+  }
+
+  .about-root h2 {
+    font-size: 1.9rem;
+  }
+
+  .about-root .mvv-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .about-root .mvv-card {
+    padding: 28px;
+  }
+
+  .about-root .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .about-root .culture-item {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .about-root .subheading {
+    font-size: 0.75rem;
+  }
+
+  .about-root .stat-number {
+    font-size: 2.4rem;
+  }
+
+  .about-root .signature {
+    font-size: 0.85rem;
+  }
+
+  .about-root .mvv-icon {
+    width: 52px;
+    height: 52px;
+    font-size: 1.3rem;
   }
 }
