@@ -546,24 +546,6 @@ const Home = () => {
             New York, NY 10001
           </span>
         </div>
-
-        <div
-          style={{
-            width: "100%",
-            height: "200px",
-            background: "#f4f4f4",
-            marginTop: "20px",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            color: "#666",
-            border: "1px solid #ddd",
-          }}
-          role="img"
-          aria-label="Map showing office location in New York"
-        >
-          Interactive Map Placeholder
-        </div>
       </div>
 
       <form

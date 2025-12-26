@@ -7,6 +7,7 @@ import About from "./pages/AboutUs";
 import Portfolio from "./pages/Portfolio";
 import Pricing from "./pages/Pricing";
 import Contact from "./pages/ContactUs";
+import GetAQuote from "./pages/GetAQuote";  
 import ScrollToTop from "./components/ScrollToTop";
 import "./App.css";
 
@@ -22,6 +23,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/get-a-quote" element={<GetAQuote />} />
       </Routes>
       <Footer />
     </BrowserRouter>
