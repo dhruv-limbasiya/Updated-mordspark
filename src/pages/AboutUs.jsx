@@ -16,6 +16,7 @@ export default function AboutUs() {
           textAlign: "center",
         }}
       >
+        
         <div
           style={{
             maxWidth: "900px",
