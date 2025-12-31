@@ -45,7 +45,7 @@ export default function AboutUs() {
               color: "#fff",
             }}
           >
-            Pioneering Digital Excellence for Enterprises.
+            Building Reliable Digital Systems
           </h1>
 
           <p
@@ -55,8 +55,7 @@ export default function AboutUs() {
               maxWidth: "900px",
             }}
           >
-            We are a strategy-led technology firm partnering with Fortune 500
-            leaders to build resilient, scalable digital ecosystems.
+            We help businesses build and maintain digital solutions they can trust.
           </p>
         </div>
       </section>
@@ -74,24 +73,18 @@ export default function AboutUs() {
 
             <div className="story-text">
               <span className="section-label">Who We Are</span>
-              <h2>A Legacy of Innovation & Integrity</h2>
+              <h2>Focused on Reliable Digital Work</h2>
 
               <p>
-                Founded in 2010, CorpSolution began with a singular vision: to
-                bridge the gap between complex enterprise technology and
-                human-centric design.
+                We are a focused digital team working with businesses to build practical and dependable digital solutions.
               </p>
 
               <div className="story-highlight">
-                "We don't just deliver code; we deliver business outcomes. Our
-                success is measured by the tangible growth and efficiency we
-                unlock for our partners."
+                “We care about building things that work well, last long, and actually help the business.”
               </div>
 
               <p>
-                Today, we operate at the intersection of business strategy and
-                engineering, helping organizations navigate uncertainty and
-                scale confidently.
+                Our approach is simple: clear communication, careful execution, and long-term reliability over short-term trends.
               </p>
 
               <img

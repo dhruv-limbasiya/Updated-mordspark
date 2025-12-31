@@ -102,7 +102,7 @@ export default function Contact() {
               </div>
               <h3>Call Us</h3>
               <p>
-                <a href="tel:+911234567890">+91 9876 543 210</a>
+                <a href="tel:+911234567890">+91 9322465522</a>
               </p>
               <p>Mon-Fri, 9am - 6pm</p>
             </div>

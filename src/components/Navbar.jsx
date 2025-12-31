@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <header className="site-header">
       <div className="container nav-wrapper">
-        <Link to="/" className="brand-logo">
+        <Link to="/" className="brand-logo" style={{ fontWeight: '1000', textShadow: '0.5px 0 currentColor, -0.5px 0 currentColor', fontFamily: '"Inter", sans-serif'  }}>
           Mord<span>Spark</span>
         </Link>
 

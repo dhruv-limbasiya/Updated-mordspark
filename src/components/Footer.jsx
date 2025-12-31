@@ -1,6 +1,7 @@
 import "./Footer.css";
 import { Link } from "react-router-dom";
 
+
 const Footer = () => {
   return (
     <>
@@ -67,7 +68,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom */}
-        <div className="footer-bottom">
+        <div className="footer-bottom" style={{ color:"white" }}>
           © {new Date().getFullYear()} MordSpark. All rights reserved.
         </div>
 

@@ -8,10 +8,9 @@ const Home = () => {
       <section id="hero" className="hero-section">
         <div className="container hero-grid">
           <article className="hero-content">
-            <h1>We Build Reliable Digital Solutions</h1>
+            <h1>Trusted Digital Solutions for Modern Businesses</h1>
             <p>
-              Empowering enterprises with scalable technology, data-driven strategies,
-              and world-class support to drive sustainable growth in a complex digital landscape.
+              We partner with organizations to design, build, and scale secure digital solutions that deliver measurable business outcomes.
             </p>
             <div className="hero-actions">
               <a href="#contact" className="btn btn-primary">Get a Quote</a>
@@ -36,28 +35,28 @@ const Home = () => {
           <header className="section-header">
             <span className="subheading">What We Do</span>
             <h2>Our Expertise</h2>
-            <p>Comprehensive business solutions tailored to your specific industry needs.</p>
+            <p>Capabilities Designed for Enterprise Growth</p>
           </header>
 
           <div className="grid-3">
             <article className="card service-card">
               <i className="fa-solid fa-chart-line service-icon" />
               <h3>Business Analytics</h3>
-              <p>Unlock actionable insights from your raw data.</p>
+              <p>Turning business data into clear, informed decisions.</p>
               <a href="#" className="service-link">Learn More <i className="fa-solid fa-arrow-right" /></a>
             </article>
 
             <article className="card service-card">
               <i className="fa-solid fa-laptop-code service-icon" />
               <h3>IT Consulting</h3>
-              <p>Strategic technology planning to modernize systems.</p>
+              <p>Practical technology guidance aligned with your business goals.</p>
               <a href="#" className="service-link">Learn More <i className="fa-solid fa-arrow-right" /></a>
             </article>
 
             <article className="card service-card">
               <i className="fa-solid fa-shield-halved service-icon" />
               <h3>Cyber Security</h3>
-              <p>Protecting enterprise assets with modern security.</p>
+              <p>Safeguarding systems, data, and operations across your organization.</p>
               <a href="#" className="service-link">Learn More <i className="fa-solid fa-arrow-right" /></a>
             </article>
           </div>
@@ -69,12 +68,12 @@ const Home = () => {
         <div className="container about-grid">
           <div className="about-text-col">
             <span className="subheading">Who We Are</span>
-            <h2>Driving Innovation Since 2010</h2>
-            <p>CorpSolution is a global leader in business transformation.</p>
+            <h2>Focused on Long-Term Value</h2>
+            <p>We help organizations build and manage reliable digital systems.</p>
             <ul className="check-list">
-              <li><i className="fa-solid fa-check-circle" /> Mission: Digital adoption</li>
-              <li><i className="fa-solid fa-check-circle" /> Vision: Connected economy</li>
-              <li><i className="fa-solid fa-check-circle" /> Values: Integrity & Excellence</li>
+              <li><i className="fa-solid fa-check-circle" /> Mission: Deliver dependable digital solutions.</li>
+              <li><i className="fa-solid fa-check-circle" /> Vision: Support lasting digital progress.</li>
+              <li><i className="fa-solid fa-check-circle" /> Values: Trust, clarity, consistency.</li>
             </ul>
           </div>
 
@@ -91,13 +90,13 @@ const Home = () => {
       <section id="why-us" className="section-padding bg-light">
         <div className="container">
           <div className="section-header">
-            <h2>Why Choose CorpSolution</h2>
+            <h2>Why Choose MordSpark</h2>
           </div>
 
           <div className="grid-3">
             <div className="feature-item">
               <div className="feature-icon-box"><i className="fa-solid fa-users" /></div>
-              <div><h4>Expert Team</h4><p>50+ certified professionals</p></div>
+              <div><h4>Expert Team</h4><p>Skilled professionals with real project experience.</p></div>
             </div>
 
             <div className="feature-item">
@@ -107,497 +106,492 @@ const Home = () => {
 
             <div className="feature-item">
               <div className="feature-icon-box"><i className="fa-solid fa-trophy" /></div>
-              <div><h4>Proven Results</h4><p>Award-winning strategies</p></div>
+              <div><h4>Proven Results</h4><p>A track record of successful implementations.</p></div>
             </div>
           </div>
         </div>
       </section>
 
       <section id="process" className="section-padding">
-  <div className="container">
-    <div className="section-header">
-      <h2>Our Workflow</h2>
-      <p>A streamlined, transparent process designed for efficiency.</p>
-    </div>
-
-    <ol className="process-ol">
-      <li className="process-li">
-        <div className="process-marker">1</div>
-        <h4>Consult</h4>
-        <p>We analyze your needs.</p>
-      </li>
-
-      <li className="process-li">
-        <div className="process-marker">2</div>
-        <h4>Plan</h4>
-        <p>Blueprint for success.</p>
-      </li>
-
-      <li className="process-li">
-        <div className="process-marker">3</div>
-        <h4>Execute</h4>
-        <p>Building the solution.</p>
-      </li>
-
-      <li className="process-li">
-        <div className="process-marker">4</div>
-        <h4>Deliver</h4>
-        <p>Launch and support.</p>
-      </li>
-    </ol>
-  </div>
-</section>
-
-<section id="portfolio" className="section-padding bg-light">
-  <div className="container">
-    <div className="section-header">
-      <h2>Recent Case Studies</h2>
-    </div>
-
-    <div className="grid-3">
-      <article className="card">
-        <div className="project-img-container">
-          <img
-            src="https://placehold.co/400x250/0A3D62/FFF?text=FinTech"
-            alt="FinTech Dashboard Interface"
-          />
-        </div>
-        <div className="card-body" style={{ paddingTop: "20px" }}>
-          <h4>FinTech Migration</h4>
-          <p>
-            Modernizing legacy systems for a banking giant to improve
-            transaction speed.
-          </p>
-          <span className="project-metric">
-            +45% Efficiency Increase
-          </span>
-        </div>
-      </article>
-
-      <article className="card">
-        <div className="project-img-container">
-          <img
-            src="https://placehold.co/400x250/1E90FF/FFF?text=Logistics+AI"
-            alt="Logistics Map Route Optimization"
-          />
-        </div>
-        <div className="card-body" style={{ paddingTop: "20px" }}>
-          <h4>Logistics AI</h4>
-          <p>
-            Route optimization software for a shipping firm to reduce fuel
-            consumption.
-          </p>
-          <span className="project-metric">
-            -30% Operational Costs
-          </span>
-        </div>
-      </article>
-
-      <article className="card">
-        <div className="project-img-container">
-          <img
-            src="https://placehold.co/400x250/333/FFF?text=Secure+Health"
-            alt="Healthcare Security Shield"
-          />
-        </div>
-        <div className="card-body" style={{ paddingTop: "20px" }}>
-          <h4>HealthData Secure</h4>
-          <p>
-            HIPAA compliant cloud storage solution ensuring 100% patient data
-            privacy.
-          </p>
-          <span className="project-metric">
-            100% Data Security
-          </span>
-        </div>
-      </article>
-    </div>
-
-    <div className="text-center" style={{ marginTop: "40px" }}>
-      <a href="#" className="btn btn-primary">
-        View All Projects
-      </a>
-    </div>
-  </div>
-</section>
-
-<section id="testimonials" className="section-padding">
-  <div className="container">
-    <div className="section-header">
-      <h2>Trusted by Leaders</h2>
-    </div>
-
-    <div className="grid-3">
-      <article className="card testimonial-card">
-        <div
-          className="rating"
-          aria-label="5 out of 5 stars"
-        >
-          ★★★★★
-        </div>
-        <p>
-          "CorpSolution transformed our digital landscape. Their
-          professionalism and technical depth are unmatched in the
-          industry."
-        </p>
-        <div className="client-meta">
-          <div className="client-avatar">
-            <img
-              src="https://placehold.co/48x48/ccc/333?text=SJ"
-              alt="Sarah Jenkins"
-            />
+        <div className="container">
+          <div className="section-header">
+            <h2>Our Workflow</h2>
+            <p>A clear, structured approach from start to delivery.</p>
           </div>
-          <div>
-            <strong>Sarah Jenkins</strong>
-            <br />
-            <small>CEO, TechWave</small>
+
+          <ol className="process-ol">
+            <li className="process-li">
+              <div className="process-marker">1</div>
+              <h4>Consult</h4>
+              <p>Understand goals and requirements.</p>
+            </li>
+
+            <li className="process-li">
+              <div className="process-marker">2</div>
+              <h4>Plan</h4>
+              <p>Define scope, timeline, and approach.</p>
+            </li>
+
+            <li className="process-li">
+              <div className="process-marker">3</div>
+              <h4>Execute</h4>
+              <p>Build, test, and integrate the solution.</p>
+            </li>
+
+            <li className="process-li">
+              <div className="process-marker">4</div>
+              <h4>Deliver</h4>
+              <p>Deploy and support.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="portfolio" className="section-padding bg-light">
+        <div className="container">
+          <div className="section-header">
+            <h2>Recent Case Studies</h2>
+          </div>
+
+          <div className="grid-3">
+            <article className="card">
+              <div className="project-img-container">
+                <img
+                  src="https://placehold.co/400x250/0A3D62/FFF?text=FinTech"
+                  alt="FinTech Dashboard Interface"
+                />
+              </div>
+              <div className="card-body" style={{ paddingTop: "20px" }}>
+                <h4>FinTech Migration</h4>
+                <p>
+                  Modernizing legacy systems for a banking giant to improve
+                  transaction speed.
+                </p>
+                <span className="project-metric">
+                  +45% Efficiency Increase
+                </span>
+              </div>
+            </article>
+
+            <article className="card">
+              <div className="project-img-container">
+                <img
+                  src="https://placehold.co/400x250/1E90FF/FFF?text=Logistics+AI"
+                  alt="Logistics Map Route Optimization"
+                />
+              </div>
+              <div className="card-body" style={{ paddingTop: "20px" }}>
+                <h4>Logistics AI</h4>
+                <p>
+                  Route optimization software for a shipping firm to reduce fuel
+                  consumption.
+                </p>
+                <span className="project-metric">
+                  -30% Operational Costs
+                </span>
+              </div>
+            </article>
+
+            <article className="card">
+              <div className="project-img-container">
+                <img
+                  src="https://placehold.co/400x250/333/FFF?text=Secure+Health"
+                  alt="Healthcare Security Shield"
+                />
+              </div>
+              <div className="card-body" style={{ paddingTop: "20px" }}>
+                <h4>HealthData Secure</h4>
+                <p>
+                  HIPAA compliant cloud storage solution ensuring 100% patient data
+                  privacy.
+                </p>
+                <span className="project-metric">
+                  100% Data Security
+                </span>
+              </div>
+            </article>
+          </div>
+
+          <div className="text-center" style={{ marginTop: "40px" }}>
+            <a href="#" className="btn btn-primary">
+              View All Projects
+            </a>
           </div>
         </div>
-      </article>
+      </section>
 
-      <article className="card testimonial-card">
-        <div
-          className="rating"
-          aria-label="5 out of 5 stars"
-        >
-          ★★★★★
-        </div>
-        <p>
-          "The ROI we achieved with their strategy was visible within
-          the first quarter. Highly recommended for scaling
-          companies."
-        </p>
-        <div className="client-meta">
-          <div className="client-avatar">
-            <img
-              src="https://placehold.co/48x48/ccc/333?text=MR"
-              alt="Michael Ross"
-            />
+      <section id="testimonials" className="section-padding">
+        <div className="container">
+          <div className="section-header">
+            <h2>Client Feedback</h2>
           </div>
-          <div>
-            <strong>Michael Ross</strong>
-            <br />
-            <small>Director, Ross Global</small>
+
+          <div className="grid-3">
+            <article className="card testimonial-card">
+              <div
+                className="rating"
+                aria-label="5 out of 5 stars"
+              >
+                ★★★★★
+              </div>
+              <p>
+                “The team delivered exactly what was outlined. Clear communication, strong technical execution, and dependable follow-through.”
+              </p>
+              <div className="client-meta">
+                <div className="client-avatar">
+                  <img
+                    src="https://placehold.co/48x48/ccc/333?text=SJ"
+                    alt="Sarah Jenkins"
+                  />
+                </div>
+                <div>
+                  <strong>Sarah Jenkins</strong>
+                  <br />
+                  <small>CEO, TechWave</small>
+                </div>
+              </div>
+            </article>
+
+            <article className="card testimonial-card">
+              <div
+                className="rating"
+                aria-label="5 out of 5 stars"
+              >
+                ★★★★★
+              </div>
+              <p>
+“We saw measurable improvements shortly after implementation. The engagement was structured and well managed.”
+              </p>
+              <div className="client-meta">
+                <div className="client-avatar">
+                  <img
+                    src="https://placehold.co/48x48/ccc/333?text=MR"
+                    alt="Michael Ross"
+                  />
+                </div>
+                <div>
+                  <strong>Michael Ross</strong>
+                  <br />
+                  <small>Director, Ross Global</small>
+                </div>
+              </div>
+            </article>
+
+            <article className="card testimonial-card">
+              <div
+                className="rating"
+                aria-label="4 out of 5 stars"
+              >
+                ★★★★☆
+              </div>
+              <p>
+                “A reliable technology partner with a strong focus on security and operational stability.”
+              </p>
+              <div className="client-meta">
+                <div className="client-avatar">
+                  <img
+                    src="https://placehold.co/48x48/ccc/333?text=DC"
+                    alt="David Chen"
+                  />
+                </div>
+                <div>
+                  <strong>David Chen</strong>
+                  <br />
+                  <small>CTO, BuildCo</small>
+                </div>
+              </div>
+            </article>
           </div>
         </div>
-      </article>
+      </section>
 
-      <article className="card testimonial-card">
-        <div
-          className="rating"
-          aria-label="4 out of 5 stars"
-        >
-          ★★★★☆
-        </div>
-        <p>
-          "Reliable, secure, and efficient. Exactly what a corporate
-          partner should be. Their support team is fantastic."
-        </p>
-        <div className="client-meta">
-          <div className="client-avatar">
-            <img
-              src="https://placehold.co/48x48/ccc/333?text=DC"
-              alt="David Chen"
-            />
+      <section id="pricing" className="section-padding">
+        <div className="container">
+          <div className="section-header">
+            <h2>Transparent Pricing</h2>
+            <p>Select a plan that fits your scale.</p>
           </div>
-          <div>
-            <strong>David Chen</strong>
-            <br />
-            <small>CTO, BuildCo</small>
+
+          <div className="grid-3">
+            <div className="card pricing-card">
+              <h4>Consultant</h4>
+              <div className="plan-price">
+                $999
+                <span
+                  style={{
+                    fontSize: "1rem",
+                    color: "#777",
+                    fontWeight: 400,
+                  }}
+                >
+                  /mo
+                </span>
+              </div>
+              <ul className="plan-features">
+                <li>Strategy Audit</li>
+                <li>Monthly Report</li>
+                <li>Email Support</li>
+              </ul>
+              <button
+                className="btn btn-secondary"
+                style={{ marginTop: "auto" }}
+              >
+                Choose Plan
+              </button>
+            </div>
+
+            <div className="card pricing-card featured">
+              <div className="badge-popular">Most Popular</div>
+              <h4 style={{ marginTop: "10px" }}>Enterprise</h4>
+              <div className="plan-price">
+                $2,499
+                <span
+                  style={{
+                    fontSize: "1rem",
+                    color: "#777",
+                    fontWeight: 400,
+                  }}
+                >
+                  /mo
+                </span>
+              </div>
+              <ul className="plan-features">
+                <li>Full Strategy Audit</li>
+                <li>Weekly Reports</li>
+                <li>24/7 Priority Support</li>
+                <li>Dedicated Manager</li>
+              </ul>
+              <button
+                className="btn btn-primary"
+                style={{ marginTop: "auto" }}
+              >
+                Choose Plan
+              </button>
+            </div>
+
+            <div className="card pricing-card">
+              <h4>Global</h4>
+              <div className="plan-price">Custom</div>
+              <ul className="plan-features">
+                <li>Multi-region Support</li>
+                <li>Custom Development</li>
+                <li>On-site Training</li>
+                <li>SLA Guarantees</li>
+              </ul>
+              <button
+                className="btn btn-secondary"
+                style={{ marginTop: "auto" }}
+              >
+                Contact Us
+              </button>
+            </div>
           </div>
         </div>
-      </article>
-    </div>
-  </div>
-</section>
+      </section>
 
-<section id="pricing" className="section-padding">
-  <div className="container">
-    <div className="section-header">
-      <h2>Transparent Pricing</h2>
-      <p>Select a plan that fits your scale.</p>
-    </div>
+      <section id="blog" className="section-padding bg-light">
+        <div className="container">
+          <div className="section-header">
+            <h2>From Our Blog</h2>
+          </div>
 
-    <div className="grid-3">
-      <div className="card pricing-card">
-        <h4>Consultant</h4>
-        <div className="plan-price">
-          $999
-          <span
-            style={{
-              fontSize: "1rem",
-              color: "#777",
-              fontWeight: 400,
-            }}
-          >
-            /mo
-          </span>
+          <div className="grid-3">
+            <article className="card">
+              <div style={{ height: "180px", background: "#ddd" }}>
+                <img
+                  src="https://placehold.co/400x180/0A3D62/FFF?text=AI+Trends"
+                  alt="Abstract AI graphic"
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "cover",
+                  }}
+                />
+              </div>
+              <div className="card-body" style={{ padding: "20px" }}>
+                <small style={{ color: "#666" }}>Oct 12, 2023</small>
+                <h4 style={{ marginTop: "10px", fontSize: "1.1rem" }}>
+                  The Future of Corporate AI
+                </h4>
+                <p style={{ fontSize: "0.9rem" }}>
+                  How artificial intelligence is reshaping the boardroom.
+                </p>
+                <a
+                  href="#"
+                  style={{
+                    color: "var(--clr-secondary)",
+                    fontWeight: 600,
+                  }}
+                >
+                  Read More
+                </a>
+              </div>
+            </article>
+
+            <article className="card">
+              <div style={{ height: "180px", background: "#ddd" }}>
+                <img
+                  src="https://placehold.co/400x180/1E90FF/FFF?text=Sustainability"
+                  alt="Green energy concept"
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "cover",
+                  }}
+                />
+              </div>
+              <div className="card-body" style={{ padding: "20px" }}>
+                <small style={{ color: "#666" }}>Sep 28, 2023</small>
+                <h4 style={{ marginTop: "10px", fontSize: "1.1rem" }}>
+                  Sustainable Growth Strategies
+                </h4>
+                <p style={{ fontSize: "0.9rem" }}>
+                  Balancing profit with environmental responsibility.
+                </p>
+                <a
+                  href="#"
+                  style={{
+                    color: "var(--clr-secondary)",
+                    fontWeight: 600,
+                  }}
+                >
+                  Read More
+                </a>
+              </div>
+            </article>
+
+            <article className="card">
+              <div style={{ height: "180px", background: "#ddd" }}>
+                <img
+                  src="https://placehold.co/400x180/333/FFF?text=Security"
+                  alt="Cyber lock graphic"
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "cover",
+                  }}
+                />
+              </div>
+              <div className="card-body" style={{ padding: "20px" }}>
+                <small style={{ color: "#666" }}>Sep 15, 2023</small>
+                <h4 style={{ marginTop: "10px", fontSize: "1.1rem" }}>
+                  Cyber Security Trends
+                </h4>
+                <p style={{ fontSize: "0.9rem" }}>
+                  Protecting your organization in a connected world.
+                </p>
+                <a
+                  href="#"
+                  style={{
+                    color: "var(--clr-secondary)",
+                    fontWeight: 600,
+                  }}
+                >
+                  Read More
+                </a>
+              </div>
+            </article>
+          </div>
         </div>
-        <ul className="plan-features">
-          <li>Strategy Audit</li>
-          <li>Monthly Report</li>
-          <li>Email Support</li>
-        </ul>
-        <button
-          className="btn btn-secondary"
-          style={{ marginTop: "auto" }}
-        >
-          Choose Plan
-        </button>
-      </div>
+      </section>
+      <section id="contact" className="section-padding">
+        <div className="container">
+          <div className="section-header">
+            <h2>Get In Touch</h2>
+            <p>Ready to start your project? Contact us today.</p>
+          </div>
 
-      <div className="card pricing-card featured">
-        <div className="badge-popular">Most Popular</div>
-        <h4 style={{ marginTop: "10px" }}>Enterprise</h4>
-        <div className="plan-price">
-          $2,499
-          <span
-            style={{
-              fontSize: "1rem",
-              color: "#777",
-              fontWeight: 400,
-            }}
-          >
-            /mo
-          </span>
+          <div className="contact-grid">
+            <div className="contact-info">
+              <h3>Contact Information</h3>
+              <p>
+                Reach out to our sales team for inquiries regarding our
+                enterprise solutions.
+              </p>
+
+              <div className="contact-detail">
+                <i
+                  className="fa-solid fa-envelope"
+                  aria-hidden="true"
+                ></i>
+                <a href="mailto:contact@corpsolution.com">
+                  contact@corpsolution.com
+                </a>
+              </div>
+
+              <div className="contact-detail">
+                <i
+                  className="fa-solid fa-phone"
+                  aria-hidden="true"
+                ></i>
+                <a href="tel:+15551234567">
+                  +1 (555) 123-4567
+                </a>
+              </div>
+
+              <div className="contact-detail">
+                <i
+                  className="fa-solid fa-location-dot"
+                  aria-hidden="true"
+                ></i>
+                <span>
+                  123 Business Blvd, Suite 400
+                  <br />
+                  New York, NY 10001
+                </span>
+              </div>
+            </div>
+
+            <form
+              id="contactForm"
+              className="contact-form"
+              action="#"
+              method="POST"
+              noValidate
+            >
+              <div className="form-group">
+                <label htmlFor="name">Full Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  autoComplete="name"
+                  required
+                />
+              </div>
+
+              <div className="form-group">
+                <label htmlFor="email">Email Address</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  autoComplete="email"
+                  required
+                />
+              </div>
+
+              <div className="form-group">
+                <label htmlFor="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows={5}
+                  required
+                ></textarea>
+              </div>
+
+              <button
+                type="submit"
+                className="btn btn-primary"
+                style={{ width: "100%" }}
+              >
+                Send Message
+              </button>
+            </form>
+          </div>
         </div>
-        <ul className="plan-features">
-          <li>Full Strategy Audit</li>
-          <li>Weekly Reports</li>
-          <li>24/7 Priority Support</li>
-          <li>Dedicated Manager</li>
-        </ul>
-        <button
-          className="btn btn-primary"
-          style={{ marginTop: "auto" }}
-        >
-          Choose Plan
-        </button>
-      </div>
-
-      <div className="card pricing-card">
-        <h4>Global</h4>
-        <div className="plan-price">Custom</div>
-        <ul className="plan-features">
-          <li>Multi-region Support</li>
-          <li>Custom Development</li>
-          <li>On-site Training</li>
-          <li>SLA Guarantees</li>
-        </ul>
-        <button
-          className="btn btn-secondary"
-          style={{ marginTop: "auto" }}
-        >
-          Contact Us
-        </button>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="blog" className="section-padding bg-light">
-  <div className="container">
-    <div className="section-header">
-      <h2>From Our Blog</h2>
-    </div>
-
-    <div className="grid-3">
-      <article className="card">
-        <div style={{ height: "180px", background: "#ddd" }}>
-          <img
-            src="https://placehold.co/400x180/0A3D62/FFF?text=AI+Trends"
-            alt="Abstract AI graphic"
-            style={{
-              width: "100%",
-              height: "100%",
-              objectFit: "cover",
-            }}
-          />
-        </div>
-        <div className="card-body" style={{ padding: "20px" }}>
-          <small style={{ color: "#666" }}>Oct 12, 2023</small>
-          <h4 style={{ marginTop: "10px", fontSize: "1.1rem" }}>
-            The Future of Corporate AI
-          </h4>
-          <p style={{ fontSize: "0.9rem" }}>
-            How artificial intelligence is reshaping the boardroom.
-          </p>
-          <a
-            href="#"
-            style={{
-              color: "var(--clr-secondary)",
-              fontWeight: 600,
-            }}
-          >
-            Read More
-          </a>
-        </div>
-      </article>
-
-      <article className="card">
-        <div style={{ height: "180px", background: "#ddd" }}>
-          <img
-            src="https://placehold.co/400x180/1E90FF/FFF?text=Sustainability"
-            alt="Green energy concept"
-            style={{
-              width: "100%",
-              height: "100%",
-              objectFit: "cover",
-            }}
-          />
-        </div>
-        <div className="card-body" style={{ padding: "20px" }}>
-          <small style={{ color: "#666" }}>Sep 28, 2023</small>
-          <h4 style={{ marginTop: "10px", fontSize: "1.1rem" }}>
-            Sustainable Growth Strategies
-          </h4>
-          <p style={{ fontSize: "0.9rem" }}>
-            Balancing profit with environmental responsibility.
-          </p>
-          <a
-            href="#"
-            style={{
-              color: "var(--clr-secondary)",
-              fontWeight: 600,
-            }}
-          >
-            Read More
-          </a>
-        </div>
-      </article>
-
-      <article className="card">
-        <div style={{ height: "180px", background: "#ddd" }}>
-          <img
-            src="https://placehold.co/400x180/333/FFF?text=Security"
-            alt="Cyber lock graphic"
-            style={{
-              width: "100%",
-              height: "100%",
-              objectFit: "cover",
-            }}
-          />
-        </div>
-        <div className="card-body" style={{ padding: "20px" }}>
-          <small style={{ color: "#666" }}>Sep 15, 2023</small>
-          <h4 style={{ marginTop: "10px", fontSize: "1.1rem" }}>
-            Cyber Security Trends
-          </h4>
-          <p style={{ fontSize: "0.9rem" }}>
-            Protecting your organization in a connected world.
-          </p>
-          <a
-            href="#"
-            style={{
-              color: "var(--clr-secondary)",
-              fontWeight: 600,
-            }}
-          >
-            Read More
-          </a>
-        </div>
-      </article>
-    </div>
-  </div>
-</section>
-<section id="contact" className="section-padding">
-  <div className="container">
-    <div className="section-header">
-      <h2>Get In Touch</h2>
-      <p>Ready to start your project? Contact us today.</p>
-    </div>
-
-    <div className="contact-grid">
-      <div className="contact-info">
-        <h3>Contact Information</h3>
-        <p>
-          Reach out to our sales team for inquiries regarding our
-          enterprise solutions.
-        </p>
-
-        <div className="contact-detail">
-          <i
-            className="fa-solid fa-envelope"
-            aria-hidden="true"
-          ></i>
-          <a href="mailto:contact@corpsolution.com">
-            contact@corpsolution.com
-          </a>
-        </div>
-
-        <div className="contact-detail">
-          <i
-            className="fa-solid fa-phone"
-            aria-hidden="true"
-          ></i>
-          <a href="tel:+15551234567">
-            +1 (555) 123-4567
-          </a>
-        </div>
-
-        <div className="contact-detail">
-          <i
-            className="fa-solid fa-location-dot"
-            aria-hidden="true"
-          ></i>
-          <span>
-            123 Business Blvd, Suite 400
-            <br />
-            New York, NY 10001
-          </span>
-        </div>
-      </div>
-
-      <form
-        id="contactForm"
-        className="contact-form"
-        action="#"
-        method="POST"
-        noValidate
-      >
-        <div className="form-group">
-          <label htmlFor="name">Full Name</label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            autoComplete="name"
-            required
-          />
-        </div>
-
-        <div className="form-group">
-          <label htmlFor="email">Email Address</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            autoComplete="email"
-            required
-          />
-        </div>
-
-        <div className="form-group">
-          <label htmlFor="message">Message</label>
-          <textarea
-            id="message"
-            name="message"
-            rows={5}
-            required
-          ></textarea>
-        </div>
-
-        <button
-          type="submit"
-          className="btn btn-primary"
-          style={{ width: "100%" }}
-        >
-          Send Message
-        </button>
-      </form>
-    </div>
-  </div>
-</section>
+      </section>
 
     </main>
   );

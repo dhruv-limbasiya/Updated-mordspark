@@ -16,7 +16,7 @@ const Services = () => {
               >
                 Our Capabilities
               </span>
-              <h1>World-Class Digital Services</h1>
+              <h1>Digital Services Built for Real Business Needs</h1>
 
               <div
                 style={{
@@ -27,9 +27,7 @@ const Services = () => {
                 }}
               >
                 <p>
-                  We combine strategic thinking with technical excellence to
-                  deliver solutions that drive real business value. From data
-                  analytics to custom software, we have you covered.
+                  We provide focused technology services that help organizations build, scale, and operate reliable digital systems.
                 </p>
 
                 <div
@@ -69,8 +67,7 @@ const Services = () => {
             <span className="subheading">What We Offer</span>
             <h2>Core Services</h2>
             <p>
-              Our multidisciplinary team provides end-to-end solutions for
-              modern enterprises.
+              Practical technology services designed to support modern enterprises.
             </p>
           </header>
 
@@ -79,8 +76,7 @@ const Services = () => {
               <i className="fa-solid fa-chart-pie service-icon" />
               <h3>Data Analytics</h3>
               <p>
-                Transform raw data into actionable intelligence with our
-                advanced BI solutions and predictive modeling.
+                Helping teams make informed decisions using clear, reliable data.
               </p>
               <a href="#analytics-detail" className="service-link">
                 Learn More <i className="fa-solid fa-arrow-right" />
@@ -91,8 +87,7 @@ const Services = () => {
               <i className="fa-solid fa-code service-icon" />
               <h3>Software Dev</h3>
               <p>
-                Custom enterprise software, web applications, and mobile
-                solutions built for scale and security.
+                Custom software built to support scale, security, and long-term use.
               </p>
               <a href="#software-detail" className="service-link">
                 Learn More <i className="fa-solid fa-arrow-right" />
@@ -103,8 +98,7 @@ const Services = () => {
               <i className="fa-solid fa-cloud service-icon" />
               <h3>Cloud Solutions</h3>
               <p>
-                Migration strategy, architecture design, and management for AWS,
-                Azure, and Google Cloud.
+                Designing and managing cloud environments that are stable and cost-aware.
               </p>
               <a href="#cloud-detail" className="service-link">
                 Learn More <i className="fa-solid fa-arrow-right" />
@@ -115,8 +109,7 @@ const Services = () => {
               <i className="fa-solid fa-shield-halved service-icon" />
               <h3>Cyber Security</h3>
               <p>
-                Comprehensive security audits, penetration testing, and
-                compliance management (HIPAA/GDPR).
+                Protecting systems and data through structured security practices.
               </p>
               <a href="#security-detail" className="service-link">
                 Learn More <i className="fa-solid fa-arrow-right" />
@@ -127,8 +120,7 @@ const Services = () => {
               <i className="fa-solid fa-lightbulb service-icon" />
               <h3>IT Consulting</h3>
               <p>
-                Strategic roadmaps to modernize legacy systems and align
-                technology with business goals.
+                Technology guidance aligned with operational and business goals.
               </p>
               <a href="#consulting-detail" className="service-link">
                 Learn More <i className="fa-solid fa-arrow-right" />
@@ -139,8 +131,7 @@ const Services = () => {
               <i className="fa-solid fa-mobile-screen service-icon" />
               <h3>Mobile Apps</h3>
               <p>
-                Native and cross-platform mobile applications designed for user
-                engagement and performance.
+                Mobile solutions focused on performance, usability, and maintainability.
               </p>
               <a href="#mobile-detail" className="service-link">
                 Learn More <i className="fa-solid fa-arrow-right" />
@@ -159,23 +150,21 @@ const Services = () => {
               <span className="subheading">Data & Intelligence</span>
               <h2>Business Analytics</h2>
               <p>
-                In today's economy, data is your most valuable asset. We help
-                you unlock its potential through advanced visualization,
-                warehousing, and machine learning models.
+                We help organizations organize, analyze, and use data to support planning and operational decisions.
               </p>
               <ul className="service-features">
                 <li>
-                  <i className="fa-solid fa-check-circle" /> Predictive Modeling
+                  <i className="fa-solid fa-check-circle" /> Predictive analysis
                 </li>
                 <li>
-                  <i className="fa-solid fa-check-circle" /> KPI Dashboards
+                  <i className="fa-solid fa-check-circle" /> Performance dashboards
                   (PowerBI / Tableau)
                 </li>
                 <li>
-                  <i className="fa-solid fa-check-circle" /> Data Warehousing
+                  <i className="fa-solid fa-check-circle" /> Data storage and pipelines
                 </li>
                 <li>
-                  <i className="fa-solid fa-check-circle" /> Big Data Processing
+                  <i className="fa-solid fa-check-circle" /> Large-scale data processing
                 </li>
               </ul>
               <a href="#contact" className="btn btn-primary">
@@ -199,8 +188,7 @@ const Services = () => {
               <span className="subheading">Engineering</span>
               <h2>Custom Software Development</h2>
               <p>
-                Off-the-shelf software rarely fits unique enterprise needs. We
-                build robust, scalable custom solutions.
+                We design and build custom software tailored to specific operational requirements.
               </p>
               <ul className="service-features">
                 <li>
@@ -214,10 +202,6 @@ const Services = () => {
                 <li>
                   <i className="fa-solid fa-check-circle" /> Legacy System
                   Modernization
-                </li>
-                <li>
-                  <i className="fa-solid fa-check-circle" /> Microservices
-                  Architecture
                 </li>
               </ul>
               <a href="#contact" className="btn btn-primary">
@@ -241,24 +225,21 @@ const Services = () => {
               <span className="subheading">Strategy</span>
               <h2>IT Consulting & Strategy</h2>
               <p>
-                Our consultants assess your current digital maturity and define
-                a clear roadmap for transformation.
+                We assess existing systems and define practical roadmaps for improvement.
               </p>
               <ul className="service-features">
                 <li>
                   <i className="fa-solid fa-check-circle" /> Digital
-                  Transformation Roadmaps
+                  Digital roadmaps
                 </li>
                 <li>
-                  <i className="fa-solid fa-check-circle" /> Tech Stack
-                  Selection
+                  <i className="fa-solid fa-check-circle" /> Technology selection
                 </li>
                 <li>
-                  <i className="fa-solid fa-check-circle" /> Vendor Management
+                  <i className="fa-solid fa-check-circle" /> Vendor coordination
                 </li>
                 <li>
-                  <i className="fa-solid fa-check-circle" /> Cost Optimization
-                  Audit
+                  <i className="fa-solid fa-check-circle" /> Cost and efficiency reviews
                 </li>
               </ul>
               <a href="#contact" className="btn btn-primary">
@@ -282,8 +263,8 @@ const Services = () => {
       <section className="section-padding" style={{ marginTop:"-90px" }}>
         <div className="container text-center">
           <div className="section-header">
-            <h2>Industries We Serve</h2>
-            <p>Deep domain expertise across key sectors.</p>
+            <h2>Industries We Work With</h2>
+            <p>Experience across multiple business domains.</p>
           </div>
 
           <div className="industry-grid">
@@ -317,7 +298,7 @@ const Services = () => {
         <div className="container">
           <div className="section-header">
             <h2>Engagement Models</h2>
-            <p>Flexible ways to work with our team.</p>
+            <p>Flexible ways to work together based on project needs.</p>
           </div>
 
           <div className="grid-3">
@@ -325,13 +306,12 @@ const Services = () => {
               <i className="fa-solid fa-file-contract engagement-icon"></i>
               <h4>Fixed Price</h4>
               <p>
-                Best for well-defined projects with clear scopes and timelines.
-                No surprises on budget.
+                Suitable for clearly defined projects with stable requirements.
               </p>
               <ul className="engagement-list">
-                <li>Clear deliverables</li>
-                <li>Set deadline</li>
-                <li>Low risk for client</li>
+                <li>Defined scope</li>
+                <li>Predictable timelines</li>
+                <li>Controlled budget</li>
               </ul>
               <button
                 className="btn btn-secondary"
@@ -345,13 +325,12 @@ const Services = () => {
               <i className="fa-solid fa-hourglass-half engagement-icon"></i>
               <h4>Time &amp; Material</h4>
               <p>
-                Ideal for evolving projects where flexibility is required. Pay
-                only for the hours worked.
+                Appropriate for evolving requirements and iterative delivery.
               </p>
               <ul className="engagement-list">
-                <li>Agile flexibility</li>
-                <li>Change requirements anytime</li>
-                <li>Continuous delivery</li>
+                <li>Flexible scope</li>
+                <li>Ongoing delivery</li>
+                <li>Transparent billing</li>
               </ul>
               <button
                 className="btn btn-secondary"
@@ -365,13 +344,12 @@ const Services = () => {
               <i className="fa-solid fa-users-gear engagement-icon"></i>
               <h4>Dedicated Team</h4>
               <p>
-                An extension of your in-house team. Full-time experts dedicated
-                solely to your project.
+                A long-term collaboration model with focused team allocation.
               </p>
               <ul className="engagement-list">
-                <li>Full control over team</li>
-                <li>Long-term collaboration</li>
-                <li>Knowledge retention</li>
+                <li>Consistent team</li>
+                <li>Direct communication</li>
+                <li>Knowledge continuity</li>
               </ul>
               <button
                 className="btn btn-secondary"

@@ -203,7 +203,10 @@
         }
 
         /* 38.2% Text, 61.8% Image */
-        .home-root .hero-content { flex: 0.382; }
+        .home-root .hero-content { 
+          flex: 0.382; 
+          margin-top: -20px;
+        }
         .home-root .hero-image   { flex: 0.618; }
 
         .home-root .hero-image img {
