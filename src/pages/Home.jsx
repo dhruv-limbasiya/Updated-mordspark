@@ -13,7 +13,7 @@ const Home = () => {
               We partner with organizations to design, build, and scale secure digital solutions that deliver measurable business outcomes.
             </p>
             <div className="hero-actions">
-              <a href="#contact" className="btn btn-primary">Get a Quote</a>
+              <a href="/get-a-quote" className="btn btn-primary">Get a Quote</a>
               <a href="#services" className="btn btn-secondary">Explore Services</a>
             </div>
           </article>

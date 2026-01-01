@@ -127,7 +127,6 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   text-align: center;
-  gap: 40px;
 }
 
 .stat-number {
@@ -234,30 +233,6 @@
   margin-bottom: 24px;
 }
 
-/* STATS */
-.stats-section {
-  background: #0a3d62;
-  color: white;
-  padding: 80px 0;
-}
-
-.stats-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  text-align: center;
-  gap: 40px;
-}
-
-.stat-number {
-  font-size: 3.5rem;
-  font-weight: 700;
-}
-
-.stat-label {
-  text-transform: uppercase;
-  font-size: 0.85rem;
-  opacity: 0.8;
-}
 
 /* CULTURE */
 .culture-grid.single-column {

@@ -16,7 +16,7 @@ export default function AboutUs() {
           textAlign: "center",
         }}
       >
-        
+
         <div
           style={{
             maxWidth: "900px",
@@ -207,24 +207,28 @@ export default function AboutUs() {
         <div className="container">
           <div className="stats-grid">
             <div className="stat-card">
-              <span className="stat-number">15+</span>
-              <span className="stat-label">Years of Excellence</span>
+              <span className="stat-number">2+</span>
+              <span className="stat-label">Years of Experience</span>
             </div>
+
             <div className="stat-card">
-              <span className="stat-number">$2B+</span>
-              <span className="stat-label">Client Revenue</span>
+              <span className="stat-number">10+</span>
+              <span className="stat-label">Projects Delivered</span>
             </div>
+
             <div className="stat-card">
-              <span className="stat-number">500+</span>
-              <span className="stat-label">Projects</span>
+              <span className="stat-number">10+</span>
+              <span className="stat-label">Happy Clients</span>
             </div>
+
             <div className="stat-card">
-              <span className="stat-number">12</span>
-              <span className="stat-label">Global Offices</span>
+              <span className="stat-number">100%</span>
+              <span className="stat-label">Client-Focused Work</span>
             </div>
           </div>
         </div>
       </section>
+
 
       {/* CULTURE */}
       <section className="section-padding">
@@ -232,30 +236,30 @@ export default function AboutUs() {
           <div className="hero-split">
             <div className="hero-text">
               <span className="subheading">Our Culture</span>
-              <h2>Principles That Drive Us</h2>
+              <h2>How We Work</h2>
 
               <div className="culture-grid single-column">
                 <div className="culture-item">
                   <i className="fa-solid fa-check-circle culture-icon"></i>
                   <div>
-                    <h4 >Client-Centricity</h4>
-                    <p style={{color:"black"}}>We align decisions with business outcomes.</p>
+                    <h4 >Culture Items</h4>
+                    <p style={{ color: "black" }}>Decisions guided by practical business needs.</p>
                   </div>
                 </div>
 
                 <div className="culture-item">
                   <i className="fa-solid fa-check-circle culture-icon"></i>
                   <div>
-                    <h4>Radical Transparency</h4>
-                    <p style={{color:"black"}}>Clear communication at every step.</p>
+                    <h4>Clear Communication</h4>
+                    <p style={{ color: "black" }}>Transparent updates throughout the project lifecycle.</p>
                   </div>
                 </div>
 
                 <div className="culture-item">
                   <i className="fa-solid fa-check-circle culture-icon"></i>
                   <div>
-                    <h4>Agile Innovation</h4>
-                    <p style={{color:"black"}}>Iterative development to adapt fast.</p>
+                    <h4>Thoughtful Execution</h4>
+                    <p style={{ color: "black" }}>Steady, iterative progress with attention to quality.</p>
                   </div>
                 </div>
               </div>

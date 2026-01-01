@@ -1,13 +1,17 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import "./GetAQuote.css";
 
 export default function GetAQuote() {
+  const location = useLocation();
+
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
     phone: "",
     company: "",
     serviceType: "",
+    engagementModel: "",
     projectTitle: "",
     description: "",
     budget: "",
@@ -18,9 +22,24 @@ export default function GetAQuote() {
   const [errors, setErrors] = useState({});
   const [sending, setSending] = useState(false);
 
+  /* ---------------------------------
+     READ ENGAGEMENT MODEL FROM URL
+  ---------------------------------- */
+  useEffect(() => {
+    const params = new URLSearchParams(location.search);
+    const model = params.get("model");
+
+    if (model) {
+      setFormData((prev) => ({
+        ...prev,
+        engagementModel: model,
+      }));
+    }
+  }, [location.search]);
+
   /* ----------------------------
-     VALIDATION (script → React)
-  ---------------------------- */
+     VALIDATION
+  ----------------------------- */
   const validate = () => {
     const newErrors = {};
 
@@ -45,20 +64,23 @@ export default function GetAQuote() {
 
     setTimeout(() => {
       alert(
-        `Thank you, ${formData.fullName}! Your quote request has been received. We will contact you shortly.`
+        `Thank you, ${formData.fullName}! Your quote request has been received.`
       );
+
       setFormData({
         fullName: "",
         email: "",
         phone: "",
         company: "",
         serviceType: "",
+        engagementModel: "",
         projectTitle: "",
         description: "",
         budget: "",
         timeline: "asap",
         contactMethod: "email",
       });
+
       setErrors({});
       setSending(false);
     }, 1500);
@@ -71,7 +93,6 @@ export default function GetAQuote() {
 
   return (
     <main id="main-content" className="quote-root">
-      {/* ================= FORM ================= */}
       <section className="section-padding bg-light" id="quote-form">
         <div className="container">
           <div className="form-card">
@@ -79,6 +100,27 @@ export default function GetAQuote() {
               <h2>Project Details</h2>
               <p>Please fill out the form below. We reply within 24 hours.</p>
             </div>
+
+            {/* ✅ SHOW SELECTED ENGAGEMENT MODEL */}
+            {formData.engagementModel && (
+              <div
+                style={{
+                  background: "#eef6ff",
+                  padding: "12px 16px",
+                  borderRadius: "6px",
+                  marginBottom: "25px",
+                  textAlign: "center",
+                  fontWeight: 500,
+                }}
+              >
+                Selected engagement model:{" "}
+                <strong>
+                  {formData.engagementModel
+                    .replace("-", " ")
+                    .toUpperCase()}
+                </strong>
+              </div>
+            )}
 
             <form noValidate onSubmit={handleSubmit}>
               {/* BASIC INFO */}
@@ -94,12 +136,6 @@ export default function GetAQuote() {
                     onChange={handleChange}
                     className={errors.fullName ? "invalid" : ""}
                   />
-                  <div
-                    className="error-msg"
-                    style={{ display: errors.fullName ? "block" : "none" }}
-                  >
-                    Name is required.
-                  </div>
                 </div>
 
                 <div className="form-group">
@@ -112,22 +148,24 @@ export default function GetAQuote() {
                     onChange={handleChange}
                     className={errors.email ? "invalid" : ""}
                   />
-                  <div
-                    className="error-msg"
-                    style={{ display: errors.email ? "block" : "none" }}
-                  >
-                    Please enter a valid email.
-                  </div>
                 </div>
 
                 <div className="form-group">
                   <label>Phone Number</label>
-                  <input name="phone" value={formData.phone} onChange={handleChange} />
+                  <input
+                    name="phone"
+                    value={formData.phone}
+                    onChange={handleChange}
+                  />
                 </div>
 
                 <div className="form-group">
                   <label>Company Name</label>
-                  <input name="company" value={formData.company} onChange={handleChange} />
+                  <input
+                    name="company"
+                    value={formData.company}
+                    onChange={handleChange}
+                  />
                 </div>
               </div>
 
@@ -152,12 +190,6 @@ export default function GetAQuote() {
                     <option value="branding">Branding</option>
                     <option value="other">Other</option>
                   </select>
-                  <div
-                    className="error-msg"
-                    style={{ display: errors.serviceType ? "block" : "none" }}
-                  >
-                    Please select a service.
-                  </div>
                 </div>
 
                 <div className="form-group">
@@ -179,12 +211,6 @@ export default function GetAQuote() {
                     onChange={handleChange}
                     className={errors.description ? "invalid" : ""}
                   />
-                  <div
-                    className="error-msg"
-                    style={{ display: errors.description ? "block" : "none" }}
-                  >
-                    Please describe your project.
-                  </div>
                 </div>
               </div>
 
@@ -208,12 +234,6 @@ export default function GetAQuote() {
                     <option value="1lakh-3lakh">₹1,00,000 – ₹3,00,000</option>
                     <option value="3lakh+">Above ₹3,00,000</option>
                   </select>
-                  <div
-                    className="error-msg"
-                    style={{ display: errors.budget ? "block" : "none" }}
-                  >
-                    Please select a budget range.
-                  </div>
                 </div>
 
                 <div className="form-group">
@@ -258,23 +278,6 @@ export default function GetAQuote() {
           </div>
         </div>
       </section>
-
-      <div className="contact-strip">
-  <div className="container">
-    <div className="strip-flex">
-      <div className="strip-item">
-        <i className="fa-solid fa-envelope"></i> contact@corpsolution.com
-      </div>
-      <div className="strip-item">
-        <i className="fa-solid fa-phone"></i> +1 (555) 123-4567
-      </div>
-      <div className="strip-item">
-        <i className="fa-solid fa-location-dot"></i> New York • London • Singapore
-      </div>
-    </div>
-  </div>
-</div>
-
     </main>
   );
 }

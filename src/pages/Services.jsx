@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Services.css";
 
 const Services = () => {
@@ -5,58 +6,58 @@ const Services = () => {
     <main id="main-content" className="services-root">
       {/* ================= PAGE HERO ================= */}
       <section className="page-hero">
-        <div className="container" style={{ textAlign:"center",}}>
-              <span
-                className="subheading"
+        <div className="container" style={{ textAlign: "center", }}>
+          <span
+            className="subheading"
+            style={{
+              color: "#64b5f6",
+              fontWeight: 800,
+              letterSpacing: "-0.02em",
+            }}
+          >
+            Our Capabilities
+          </span>
+          <h1>Digital Services Built for Real Business Needs</h1>
+
+          <div
+            style={{
+              display: "flex",
+              gap: "15px",
+              flexDirection: "column",
+              alignItems: "center",
+            }}
+          >
+            <p>
+              We provide focused technology services that help organizations build, scale, and operate reliable digital systems.
+            </p>
+
+            <div
+              style={{
+                display: "flex",
+                gap: "15px",
+                flexWrap: "wrap",
+              }}
+            >
+              <a
+                href="#contact"
+                className="btn btn-secondary btn-quote"
+                style={{ borderColor: "white", color: "white" }}
+              >
+                Get a Quote
+              </a>
+              <a
+                href="#core-services"
+                className="btn btn-white"
                 style={{
-                  color: "#64b5f6",
-                  fontWeight: 800,
-                  letterSpacing: "-0.02em",
+                  border: "1px solid #ffffff",
+                  fontWeight: 600,
                 }}
               >
-                Our Capabilities
-              </span>
-              <h1>Digital Services Built for Real Business Needs</h1>
+                View Services
+              </a>
+            </div>
+          </div>
 
-              <div
-                style={{
-                  display: "flex",
-                  gap: "15px",
-                  flexDirection: "column",
-                  alignItems: "center",
-                }}
-              >
-                <p>
-                  We provide focused technology services that help organizations build, scale, and operate reliable digital systems.
-                </p>
-
-                <div
-                  style={{
-                    display: "flex",
-                    gap: "15px",
-                    flexWrap: "wrap",
-                  }}
-                >
-                  <a
-                    href="#contact"
-                    className="btn btn-secondary btn-quote"
-                    style={{ borderColor: "white", color: "white" }}
-                  >
-                    Get a Quote
-                  </a>
-                  <a
-                    href="#core-services"
-                    className="btn btn-white"
-                    style={{
-                      border: "1px solid #ffffff",
-                      fontWeight: 600,
-                    }}
-                  >
-                    View Services
-                  </a>
-                </div>
-              </div>
-            
         </div>
       </section>
 
@@ -260,7 +261,7 @@ const Services = () => {
       </section>
 
       {/* ================= INDUSTRIES ================= */}
-      <section className="section-padding" style={{ marginTop:"-90px" }}>
+      <section className="section-padding" style={{ marginTop: "-90px" }}>
         <div className="container text-center">
           <div className="section-header">
             <h2>Industries We Work With</h2>
@@ -298,69 +299,67 @@ const Services = () => {
         <div className="container">
           <div className="section-header">
             <h2>Engagement Models</h2>
-            <p>Flexible ways to work together based on project needs.</p>
+            <p>Choose the working model that best fits your project and budget.</p>
           </div>
 
           <div className="grid-3">
             <div className="card engagement-card">
               <i className="fa-solid fa-file-contract engagement-icon"></i>
               <h4>Fixed Price</h4>
-              <p>
-                Suitable for clearly defined projects with stable requirements.
-              </p>
+              <p>Suitable for clearly defined projects with stable requirements.</p>
               <ul className="engagement-list">
                 <li>Defined scope</li>
                 <li>Predictable timelines</li>
                 <li>Controlled budget</li>
               </ul>
-              <button
+              <Link
+                to="/get-a-quote?model=fixed-price"
                 className="btn btn-secondary"
                 style={{ marginTop: "auto" }}
               >
-                Select Model
-              </button>
+                Discuss Fixed Scope
+              </Link>
             </div>
 
             <div className="card engagement-card">
               <i className="fa-solid fa-hourglass-half engagement-icon"></i>
               <h4>Time &amp; Material</h4>
-              <p>
-                Appropriate for evolving requirements and iterative delivery.
-              </p>
+              <p>Appropriate for evolving requirements and iterative delivery.</p>
               <ul className="engagement-list">
                 <li>Flexible scope</li>
                 <li>Ongoing delivery</li>
                 <li>Transparent billing</li>
               </ul>
-              <button
+              <Link
+                to="/get-a-quote?model=time-material"
                 className="btn btn-secondary"
                 style={{ marginTop: "auto" }}
               >
-                Select Model
-              </button>
+                Discuss Flexible Work
+              </Link>
             </div>
 
             <div className="card engagement-card">
               <i className="fa-solid fa-users-gear engagement-icon"></i>
               <h4>Dedicated Team</h4>
-              <p>
-                A long-term collaboration model with focused team allocation.
-              </p>
+              <p>A long-term collaboration model with focused team allocation.</p>
               <ul className="engagement-list">
                 <li>Consistent team</li>
                 <li>Direct communication</li>
                 <li>Knowledge continuity</li>
               </ul>
-              <button
+              <Link
+                to="/get-a-quote?model=dedicated-team"
                 className="btn btn-secondary"
                 style={{ marginTop: "auto" }}
               >
-                Select Model
-              </button>
+                Discuss Long-Term Work
+              </Link>
             </div>
           </div>
         </div>
       </section>
+
     </main>
   );
 };
