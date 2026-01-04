@@ -16,8 +16,7 @@ const Footer = () => {
             </Link>
 
             <p>
-              Delivering excellence in technology and consulting since 2010.
-              Your trusted partner for digital transformation.
+                Building reliable digital solutions with a focus on clarity, quality, and long-term value.
             </p>
           </div>
 
@@ -26,7 +25,7 @@ const Footer = () => {
             <h4>About MordSpark</h4>
             <ul className="footer-links">
               <li><Link to="/about">About Us</Link></li>
-              <li><Link to="/blog">News & Blog</Link></li>
+              <li><Link to="/portfolio">News & Blog</Link></li>
               <li><Link to="/contact">Contact</Link></li>
             </ul>
           </div>

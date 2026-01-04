@@ -242,13 +242,13 @@ export default function AboutUs() {
       <div className="team-card">
         <div className="team-img-box">
           <img
-            src="https://placehold.co/400x500/ccc/333?text=CEO"
-            alt="James Sterling, CEO"
+            src="./avatar.jpg"
+            alt="Aditya Pande, Lead Developer"
           />
         </div>
         <div className="team-info">
           <h4 className="team-name">Aditya Pande</h4>
-          <span className="team-role">Chief Executive Officer</span>
+          <span className="team-role">Lead Developer</span>
           <p style={{ fontSize: "0.9rem", marginBottom: "10px" }}>
             Former VP at GlobalBank. 20 years in FinTech strategy.
           </p>
@@ -267,13 +267,13 @@ export default function AboutUs() {
       <div className="team-card">
         <div className="team-img-box">
           <img
-            src="https://placehold.co/400x500/ccc/333?text=CEO"
-            alt="Harshal Mahajan, CEO"
+            src="./avatar.jpg"
+            alt="Harshal Mahajan, Full-Stack Developer"
           />
         </div>
         <div className="team-info">
           <h4 className="team-name">Harshal Mahajan</h4>
-          <span className="team-role">Chief Executive Officer</span>
+          <span className="team-role">Full-Stack Developer</span>
           <p style={{ fontSize: "0.9rem", marginBottom: "10px" }}>
             Ph.D. in Computer Science. Expert in Cloud Architecture.
           </p>
@@ -292,13 +292,13 @@ export default function AboutUs() {
       <div className="team-card">
         <div className="team-img-box">
           <img
-            src="https://placehold.co/400x500/ccc/333?text=CEO"
-            alt="Dhruv Limbasiya, CEO"
+            src="./dhruv.png"
+            alt="Dhruv Limbasiya, Backend Developer"
           />
         </div>
         <div className="team-info">
           <h4 className="team-name">Dhruv Limbasiya</h4>
-          <span className="team-role">Chief Executive Officer</span>
+          <span className="team-role">Backend Developer</span>
           <p style={{ fontSize: "0.9rem", marginBottom: "10px" }}>
             Operational scaling expert. Previously at Big4 Consulting.
           </p>
@@ -317,13 +317,13 @@ export default function AboutUs() {
       <div className="team-card">
         <div className="team-img-box">
           <img
-            src="https://placehold.co/400x500/ccc/333?text=CEO"
-            alt="Rishi Patel, CEO"
+            src="./rishi.jpeg"
+            alt="Rishi Patel, Frontend Developer (UI Focus)"
           />
         </div>
         <div className="team-info">
           <h4 className="team-name">Rishi Patel</h4>
-          <span className="team-role">Chief Executive Officer</span>
+          <span className="team-role">Frontend Developer (UI Focus)</span>
           <p style={{ fontSize: "0.9rem", marginBottom: "10px" }}>
             Driving digital transformation roadmaps for key accounts.
           </p>
@@ -342,13 +342,13 @@ export default function AboutUs() {
       <div className="team-card">
         <div className="team-img-box">
           <img
-            src="https://placehold.co/400x500/ccc/333?text=CEO"
-            alt="Smit Gadhiya, CEO"
+            src="./avatar.jpg"
+            alt="Smit Gadhiya, UI / UX Designer"
           />
         </div>
         <div className="team-info">
           <h4 className="team-name">Smit Gadhiya</h4>
-          <span className="team-role">Chief Executive Officer</span>
+          <span className="team-role">UI / UX Designer</span>
           <p style={{ fontSize: "0.9rem", marginBottom: "10px" }}>
             Driving digital transformation roadmaps for key accounts.
           </p>
@@ -367,13 +367,13 @@ export default function AboutUs() {
       <div className="team-card">
         <div className="team-img-box">
           <img
-            src="https://placehold.co/400x500/ccc/333?text=CEO"
-            alt="Jatin Dhokiya, CEO"
+            src="./avatar.jpg"
+            alt="Jatin Dhokiya, Quality Assurance (QA)"
           />
         </div>
         <div className="team-info">
           <h4 className="team-name">Jatin Dhokiya</h4>
-          <span className="team-role">CEO</span>
+          <span className="team-role">Quality Assurance (QA)</span>
           <p style={{ fontSize: "0.9rem", marginBottom: "10px" }}>
             Driving digital transformation roadmaps for key accounts.
           </p>
@@ -392,13 +392,13 @@ export default function AboutUs() {
       <div className="team-card">
         <div className="team-img-box">
           <img
-            src="https://placehold.co/400x500/ccc/333?text=CEO"
-            alt="MD Sadab, CEO"
+            src="./avatar.jpg"
+            alt="MD Sadab, Deployment Support"
           />
         </div>
         <div className="team-info">
           <h4 className="team-name">MD Sadab</h4>
-          <span className="team-role">CEO</span>
+          <span className="team-role">Deployment Support</span>
           <p style={{ fontSize: "0.9rem", marginBottom: "10px" }}>
             Driving digital transformation roadmaps for key accounts.
           </p>
@@ -417,13 +417,13 @@ export default function AboutUs() {
       <div className="team-card">
         <div className="team-img-box">
           <img
-            src="https://placehold.co/400x500/ccc/333?text=CEO"
-            alt="Fenil Dhanani, CEO"
+            src="./avatar.jpg"
+            alt="Fenil Dhanani, Client Support & Coordination"
           />
         </div>
         <div className="team-info">
           <h4 className="team-name">Fenil Dhanani</h4>
-          <span className="team-role">CEO</span>
+          <span className="team-role">Client Support & Coordination</span>
           <p style={{ fontSize: "0.9rem", marginBottom: "10px" }}>
             Driving digital transformation roadmaps for key accounts.
           </p>

@@ -186,13 +186,13 @@ export default function Pricing() {
         <div className="container">
           <div className="strip-flex">
             <div className="strip-item">
-              <i className="fa-solid fa-envelope"></i> contact@corpsolution.com
+              <i className="fa-solid fa-envelope"></i> contact@modrspark.com
             </div>
             <div className="strip-item">
-              <i className="fa-solid fa-phone"></i> +1 (555) 123-4567
+              <i className="fa-solid fa-phone"></i> +91 9322465522
             </div>
             <div className="strip-item">
-              <i className="fa-solid fa-location-dot"></i> New York • London • Singapore
+              <i className="fa-solid fa-location-dot"></i> Maharastra, pune
             </div>
           </div>
         </div>
