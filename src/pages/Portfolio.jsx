@@ -14,49 +14,37 @@ const PROJECTS = [
     id: 1,
     category: "web",
     label: "Web Development",
-    title: "FinTech Global Dashboard",
-    desc: "A comprehensive banking dashboard for managing international assets.",
-    img: "https://placehold.co/400x300/1E90FF/FFFFFF?text=FinTech+Platform",
+    title: "E-Commerce Platform",
+    desc: "A full-scale e-commerce website with secure payments, product management, and modern UI.",
+    img: "../public/E-Commerce.jpg",
+    link: "https://aruz.in/",
   },
   {
     id: 2,
-    category: "mobile",
-    label: "Mobile Apps",
-    title: "MediCare Connect",
-    desc: "Patient portal mobile application with HIPAA compliant video conferencing.",
-    img: "https://placehold.co/400x300/0A3D62/FFFFFF?text=Health+App",
+    category: "enterprise",
+    label: "Corporate Website",
+    title: "Corporate Landing Page",
+    desc: "Professional corporate website designed for brand trust, lead generation, and performance.",
+    img: "../public/corporate.jpg",
+    link: "http://www.thevedhmedia.free.nf/php-business-website-main/?i=1",
   },
   {
     id: 3,
-    category: "enterprise",
-    label: "Enterprise",
-    title: "Logistics ERP Suite",
-    desc: "Supply chain management system for a global shipping firm.",
-    img: "https://placehold.co/400x300/333333/FFFFFF?text=ERP+System",
+    category: "consulting",
+    label: "Data Analytics",
+    title: "Data Visualization Dashboard",
+    desc: "Interactive dashboards showcasing advanced data visualization techniques and business insights.",
+    img: "../public/dashboard.jpg",
+    link: "https://datapine.com/blog/data-visualization-examples/",
   },
   {
     id: 4,
-    category: "consulting",
-    label: "Consulting",
-    title: "Legacy Cloud Migration",
-    desc: "Transitioning on-premise infrastructure to AWS for a retail giant.",
-    img: "https://placehold.co/400x300/666666/FFFFFF?text=Cloud+Migration",
-  },
-  {
-    id: 5,
-    category: "web",
-    label: "Web Development",
-    title: "ShopScale E-Commerce",
-    desc: "Headless e-commerce solution handling 50k+ daily transactions.",
-    img: "https://placehold.co/400x300/1E90FF/FFFFFF?text=E-Commerce",
-  },
-  {
-    id: 6,
     category: "mobile",
-    label: "Mobile Apps",
-    title: "FitPulse Tracker",
-    desc: "Real-time biometric tracking app integrated with wearable IoT devices.",
-    img: "https://placehold.co/400x300/0A3D62/FFFFFF?text=Fitness+Tracker",
+    label: "Web & Mobile App",
+    title: "Pustak Market",
+    desc: "Online book marketplace offering both website and mobile application for seamless shopping.",
+    img: "../public/book.jpg",
+    link: "https://pustakmarket.com/",
   },
 ];
 
@@ -76,8 +64,8 @@ const Portfolio = () => {
           <div className="hero-text">
             <h1>Our Portfolio</h1>
             <p>
-              We partner with Fortune 500 companies and ambitious startups to
-              deliver scalable, secure, and impactful digital solutions.
+              We partner with ambitious brands and startups to deliver scalable,
+              secure, and high-impact digital products.
             </p>
             <a href="#projects" className="btn btn-primary btn-light">
               View Projects
@@ -103,7 +91,6 @@ const Portfolio = () => {
                 className={`filter-btn ${
                   activeFilter === f.value ? "active" : ""
                 }`}
-                aria-pressed={activeFilter === f.value}
                 onClick={() => setActiveFilter(f.value)}
               >
                 {f.label}
@@ -127,7 +114,13 @@ const Portfolio = () => {
                   <span className="cat-badge">{project.label}</span>
                   <h3 className="card-title">{project.title}</h3>
                   <p className="card-desc">{project.desc}</p>
-                  <a className="card-link">
+
+                  <a
+                    href={project.link}
+                    className="card-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     View Case Study{" "}
                     <i className="fa-solid fa-arrow-right"></i>
                   </a>
@@ -137,7 +130,6 @@ const Portfolio = () => {
           </div>
         </div>
       </section>
-      
 
       {/* CONTACT STRIP */}
       <div className="contact-strip">

@@ -157,6 +157,87 @@
   font-size: 1.5rem;
 }
 
+      /* =========================================
+           8. LEADERSHIP (PREMIUM CARDS)
+           ========================================= */
+      .team-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: var(--sp-lg);
+      }
+      .team-card {
+        background: var(--clr-white);
+        border-radius: var(--radius-lg);
+        overflow: hidden;
+        border: 1px solid var(--clr-border);
+        transition: all 0.3s ease;
+      }
+      .team-card:hover {
+        transform: translateY(-8px);
+        box-shadow: var(--shadow-xl);
+        border-color: transparent;
+      }
+      .team-img-box {
+        height: 200px;
+        overflow: hidden;
+        position: relative;
+        background: #eef2f6;
+      }
+      .team-img-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.5s ease;
+        filter: grayscale(20%);
+      }
+      .team-card:hover .team-img-box img {
+        transform: scale(1.05);
+        filter: grayscale(0%);
+      }
+
+      .team-info {
+        padding: var(--sp-md);
+        text-align: left;
+        position: relative;
+      }
+      .team-info::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 24px;
+        width: 40px;
+        height: 3px;
+        background: var(--clr-secondary);
+      }
+      .team-name {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: var(--text-heading);
+        margin-bottom: 4px;
+      }
+      .team-role {
+        font-size: 0.9rem;
+        color: var(--clr-primary);
+        font-weight: 500;
+        margin-bottom: 12px;
+        display: block;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+      .team-social {
+        display: flex;
+        gap: 12px;
+        margin-top: 15px;
+      }
+      .team-social a {
+        color: var(--text-muted);
+        font-size: 1rem;
+        transition: 0.2s;
+      }
+      .team-social a:hover {
+        color: var(--clr-secondary);
+      }
+
 /* RESPONSIVE */
 @media (max-width: 1024px) {
   .story-grid,

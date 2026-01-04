@@ -230,6 +230,219 @@ export default function AboutUs() {
       </section>
 
 
+      <section className="section-padding bg-light">
+  <div className="container">
+    <div className="section-header">
+      <span className="subheading">Leadership</span>
+      <h2>Meet the Executives</h2>
+    </div>
+
+    <div className="team-grid">
+      {/* Card 1 */}
+      <div className="team-card">
+        <div className="team-img-box">
+          <img
+            src="https://placehold.co/400x500/ccc/333?text=CEO"
+            alt="James Sterling, CEO"
+          />
+        </div>
+        <div className="team-info">
+          <h4 className="team-name">Aditya Pande</h4>
+          <span className="team-role">Chief Executive Officer</span>
+          <p style={{ fontSize: "0.9rem", marginBottom: "10px" }}>
+            Former VP at GlobalBank. 20 years in FinTech strategy.
+          </p>
+          <div className="team-social">
+            <a href="#" aria-label="LinkedIn">
+              <i className="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="#" aria-label="Twitter">
+              <i className="fa-brands fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* Card 2 */}
+      <div className="team-card">
+        <div className="team-img-box">
+          <img
+            src="https://placehold.co/400x500/ccc/333?text=CEO"
+            alt="Harshal Mahajan, CEO"
+          />
+        </div>
+        <div className="team-info">
+          <h4 className="team-name">Harshal Mahajan</h4>
+          <span className="team-role">Chief Executive Officer</span>
+          <p style={{ fontSize: "0.9rem", marginBottom: "10px" }}>
+            Ph.D. in Computer Science. Expert in Cloud Architecture.
+          </p>
+          <div className="team-social">
+            <a href="#" aria-label="LinkedIn">
+              <i className="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="#" aria-label="Twitter">
+              <i className="fa-brands fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* Card 3 */}
+      <div className="team-card">
+        <div className="team-img-box">
+          <img
+            src="https://placehold.co/400x500/ccc/333?text=CEO"
+            alt="Dhruv Limbasiya, CEO"
+          />
+        </div>
+        <div className="team-info">
+          <h4 className="team-name">Dhruv Limbasiya</h4>
+          <span className="team-role">Chief Executive Officer</span>
+          <p style={{ fontSize: "0.9rem", marginBottom: "10px" }}>
+            Operational scaling expert. Previously at Big4 Consulting.
+          </p>
+          <div className="team-social">
+            <a href="#" aria-label="LinkedIn">
+              <i className="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="#" aria-label="Twitter">
+              <i className="fa-brands fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* Card 4 */}
+      <div className="team-card">
+        <div className="team-img-box">
+          <img
+            src="https://placehold.co/400x500/ccc/333?text=CEO"
+            alt="Rishi Patel, CEO"
+          />
+        </div>
+        <div className="team-info">
+          <h4 className="team-name">Rishi Patel</h4>
+          <span className="team-role">Chief Executive Officer</span>
+          <p style={{ fontSize: "0.9rem", marginBottom: "10px" }}>
+            Driving digital transformation roadmaps for key accounts.
+          </p>
+          <div className="team-social">
+            <a href="#" aria-label="LinkedIn">
+              <i className="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="#" aria-label="Twitter">
+              <i className="fa-brands fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* card 5 */}
+      <div className="team-card">
+        <div className="team-img-box">
+          <img
+            src="https://placehold.co/400x500/ccc/333?text=CEO"
+            alt="Smit Gadhiya, CEO"
+          />
+        </div>
+        <div className="team-info">
+          <h4 className="team-name">Smit Gadhiya</h4>
+          <span className="team-role">Chief Executive Officer</span>
+          <p style={{ fontSize: "0.9rem", marginBottom: "10px" }}>
+            Driving digital transformation roadmaps for key accounts.
+          </p>
+          <div className="team-social">
+            <a href="#" aria-label="LinkedIn">
+              <i className="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="#" aria-label="Twitter">
+              <i className="fa-brands fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+            {/* card 6 */}
+      <div className="team-card">
+        <div className="team-img-box">
+          <img
+            src="https://placehold.co/400x500/ccc/333?text=CEO"
+            alt="Jatin Dhokiya, CEO"
+          />
+        </div>
+        <div className="team-info">
+          <h4 className="team-name">Jatin Dhokiya</h4>
+          <span className="team-role">CEO</span>
+          <p style={{ fontSize: "0.9rem", marginBottom: "10px" }}>
+            Driving digital transformation roadmaps for key accounts.
+          </p>
+          <div className="team-social">
+            <a href="#" aria-label="LinkedIn">
+              <i className="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="#" aria-label="Twitter">
+              <i className="fa-brands fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+            {/* card 7 */}
+      <div className="team-card">
+        <div className="team-img-box">
+          <img
+            src="https://placehold.co/400x500/ccc/333?text=CEO"
+            alt="MD Sadab, CEO"
+          />
+        </div>
+        <div className="team-info">
+          <h4 className="team-name">MD Sadab</h4>
+          <span className="team-role">CEO</span>
+          <p style={{ fontSize: "0.9rem", marginBottom: "10px" }}>
+            Driving digital transformation roadmaps for key accounts.
+          </p>
+          <div className="team-social">
+            <a href="#" aria-label="LinkedIn">
+              <i className="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="#" aria-label="Twitter">
+              <i className="fa-brands fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+            {/* card 8 */}
+      <div className="team-card">
+        <div className="team-img-box">
+          <img
+            src="https://placehold.co/400x500/ccc/333?text=CEO"
+            alt="Fenil Dhanani, CEO"
+          />
+        </div>
+        <div className="team-info">
+          <h4 className="team-name">Fenil Dhanani</h4>
+          <span className="team-role">CEO</span>
+          <p style={{ fontSize: "0.9rem", marginBottom: "10px" }}>
+            Driving digital transformation roadmaps for key accounts.
+          </p>
+          <div className="team-social">
+            <a href="#" aria-label="LinkedIn">
+              <i className="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="#" aria-label="Twitter">
+              <i className="fa-brands fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
       {/* CULTURE */}
       <section className="section-padding">
         <div className="container">
