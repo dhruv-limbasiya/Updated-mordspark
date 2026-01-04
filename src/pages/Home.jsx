@@ -1,21 +1,26 @@
 import "./Home.css";
+import { Link } from "react-router-dom";
 
 const Home = () => {
-  
   return (
     <main id="main-content" className="home-root">
-
       {/* HERO */}
       <section id="hero" className="hero-section">
         <div className="container hero-grid">
           <article className="hero-content">
             <h1>Trusted Digital Solutions for Modern Businesses</h1>
             <p>
-              We partner with organizations to design, build, and scale secure digital solutions that deliver measurable business outcomes.
+              We partner with organizations to design, build, and scale secure
+              digital solutions that deliver measurable business outcomes.
             </p>
             <div className="hero-actions">
-              <a href="/get-a-quote" className="btn btn-primary">Get a Quote</a>
-              <a href="#services" className="btn btn-secondary">Explore Services</a>
+              <Link to="/get-a-quote" className="btn btn-primary">Get a Quote</Link>
+              {/* <a href="/get-a-quote" className="btn btn-primary">
+                Get a Quote
+              </a> */}
+              <a href="#services" className="btn btn-secondary">
+                Explore Services
+              </a>
             </div>
           </article>
 
@@ -44,21 +49,32 @@ const Home = () => {
               <i className="fa-solid fa-chart-line service-icon" />
               <h3>Business Analytics</h3>
               <p>Turning business data into clear, informed decisions.</p>
-              <a href="#" className="service-link">Learn More <i className="fa-solid fa-arrow-right" /></a>
+              <Link to="/portfolio" className="service-link">
+                Learn More <i className="fa-solid fa-arrow-right" />
+              </Link>
             </article>
 
             <article className="card service-card">
               <i className="fa-solid fa-laptop-code service-icon" />
               <h3>IT Consulting</h3>
-              <p>Practical technology guidance aligned with your business goals.</p>
-              <a href="#" className="service-link">Learn More <i className="fa-solid fa-arrow-right" /></a>
+              <p>
+                Practical technology guidance aligned with your business goals.
+              </p>
+              <Link to="/portfolio" className="service-link">
+                Learn More <i className="fa-solid fa-arrow-right" />
+              </Link>
             </article>
 
             <article className="card service-card">
               <i className="fa-solid fa-shield-halved service-icon" />
               <h3>Cyber Security</h3>
-              <p>Safeguarding systems, data, and operations across your organization.</p>
-              <a href="#" className="service-link">Learn More <i className="fa-solid fa-arrow-right" /></a>
+              <p>
+                Safeguarding systems, data, and operations across your
+                organization.
+              </p>
+              <Link to="/portfolio" className="service-link">
+                Learn More <i className="fa-solid fa-arrow-right" />
+              </Link>
             </article>
           </div>
         </div>
@@ -70,11 +86,22 @@ const Home = () => {
           <div className="about-text-col">
             <span className="subheading">Who We Are</span>
             <h2>Focused on Long-Term Value</h2>
-            <p>We help organizations build and manage reliable digital systems.</p>
+            <p>
+              We help organizations build and manage reliable digital systems.
+            </p>
             <ul className="check-list">
-              <li><i className="fa-solid fa-check-circle" /> Mission: Deliver dependable digital solutions.</li>
-              <li><i className="fa-solid fa-check-circle" /> Vision: Support lasting digital progress.</li>
-              <li><i className="fa-solid fa-check-circle" /> Values: Trust, clarity, consistency.</li>
+              <li>
+                <i className="fa-solid fa-check-circle" /> Mission: Deliver
+                dependable digital solutions.
+              </li>
+              <li>
+                <i className="fa-solid fa-check-circle" /> Vision: Support
+                lasting digital progress.
+              </li>
+              <li>
+                <i className="fa-solid fa-check-circle" /> Values: Trust,
+                clarity, consistency.
+              </li>
             </ul>
           </div>
 
@@ -96,18 +123,33 @@ const Home = () => {
 
           <div className="grid-3">
             <div className="feature-item">
-              <div className="feature-icon-box"><i className="fa-solid fa-users" /></div>
-              <div><h4>Expert Team</h4><p>Skilled professionals with real project experience.</p></div>
+              <div className="feature-icon-box">
+                <i className="fa-solid fa-users" />
+              </div>
+              <div>
+                <h4>Expert Team</h4>
+                <p>Skilled professionals with real project experience.</p>
+              </div>
             </div>
 
             <div className="feature-item">
-              <div className="feature-icon-box"><i className="fa-solid fa-clock" /></div>
-              <div><h4>24/7 Support</h4><p>Always available</p></div>
+              <div className="feature-icon-box">
+                <i className="fa-solid fa-clock" />
+              </div>
+              <div>
+                <h4>24/7 Support</h4>
+                <p>Always available</p>
+              </div>
             </div>
 
             <div className="feature-item">
-              <div className="feature-icon-box"><i className="fa-solid fa-trophy" /></div>
-              <div><h4>Proven Results</h4><p>A track record of successful implementations.</p></div>
+              <div className="feature-icon-box">
+                <i className="fa-solid fa-trophy" />
+              </div>
+              <div>
+                <h4>Proven Results</h4>
+                <p>A track record of successful implementations.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -168,9 +210,7 @@ const Home = () => {
                   Modernizing legacy systems for a banking giant to improve
                   transaction speed.
                 </p>
-                <span className="project-metric">
-                  +45% Efficiency Increase
-                </span>
+                <span className="project-metric">+45% Efficiency Increase</span>
               </div>
             </article>
 
@@ -187,9 +227,7 @@ const Home = () => {
                   Route optimization software for a shipping firm to reduce fuel
                   consumption.
                 </p>
-                <span className="project-metric">
-                  -30% Operational Costs
-                </span>
+                <span className="project-metric">-30% Operational Costs</span>
               </div>
             </article>
 
@@ -203,20 +241,18 @@ const Home = () => {
               <div className="card-body" style={{ paddingTop: "20px" }}>
                 <h4>HealthData Secure</h4>
                 <p>
-                  HIPAA compliant cloud storage solution ensuring 100% patient data
-                  privacy.
+                  HIPAA compliant cloud storage solution ensuring 100% patient
+                  data privacy.
                 </p>
-                <span className="project-metric">
-                  100% Data Security
-                </span>
+                <span className="project-metric">100% Data Security</span>
               </div>
             </article>
           </div>
 
           <div className="text-center" style={{ marginTop: "40px" }}>
-            <a href="#" className="btn btn-primary">
+            <Link to="/portfolio" className="btn btn-primary">
               View All Projects
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -229,14 +265,13 @@ const Home = () => {
 
           <div className="grid-3">
             <article className="card testimonial-card">
-              <div
-                className="rating"
-                aria-label="5 out of 5 stars"
-              >
+              <div className="rating" aria-label="5 out of 5 stars">
                 ★★★★★
               </div>
               <p>
-                “The team delivered exactly what was outlined. Clear communication, strong technical execution, and dependable follow-through.”
+                “The team delivered exactly what was outlined. Clear
+                communication, strong technical execution, and dependable
+                follow-through.”
               </p>
               <div className="client-meta">
                 <div className="client-avatar">
@@ -254,14 +289,12 @@ const Home = () => {
             </article>
 
             <article className="card testimonial-card">
-              <div
-                className="rating"
-                aria-label="5 out of 5 stars"
-              >
+              <div className="rating" aria-label="5 out of 5 stars">
                 ★★★★★
               </div>
               <p>
-“We saw measurable improvements shortly after implementation. The engagement was structured and well managed.”
+                “We saw measurable improvements shortly after implementation.
+                The engagement was structured and well managed.”
               </p>
               <div className="client-meta">
                 <div className="client-avatar">
@@ -279,14 +312,12 @@ const Home = () => {
             </article>
 
             <article className="card testimonial-card">
-              <div
-                className="rating"
-                aria-label="4 out of 5 stars"
-              >
+              <div className="rating" aria-label="4 out of 5 stars">
                 ★★★★☆
               </div>
               <p>
-                “A reliable technology partner with a strong focus on security and operational stability.”
+                “A reliable technology partner with a strong focus on security
+                and operational stability.”
               </p>
               <div className="client-meta">
                 <div className="client-avatar">
@@ -362,10 +393,7 @@ const Home = () => {
                 <li>24/7 Priority Support</li>
                 <li>Dedicated Manager</li>
               </ul>
-              <button
-                className="btn btn-primary"
-                style={{ marginTop: "auto" }}
-              >
+              <button className="btn btn-primary" style={{ marginTop: "auto" }}>
                 Choose Plan
               </button>
             </div>
@@ -379,18 +407,19 @@ const Home = () => {
                 <li>On-site Training</li>
                 <li>SLA Guarantees</li>
               </ul>
-              <button
+              <Link
+                to="/contact"
                 className="btn btn-secondary"
                 style={{ marginTop: "auto" }}
               >
                 Contact Us
-              </button>
+              </Link>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="blog" className="section-padding bg-light">
+      {/* <section id="blog" className="section-padding bg-light">
         <div className="container">
           <div className="section-header">
             <h2>From Our Blog</h2>
@@ -494,7 +523,8 @@ const Home = () => {
             </article>
           </div>
         </div>
-      </section>
+      </section> */}
+
       <section id="contact" className="section-padding">
         <div className="container">
           <div className="section-header">
@@ -511,30 +541,19 @@ const Home = () => {
               </p>
 
               <div className="contact-detail">
-                <i
-                  className="fa-solid fa-envelope"
-                  aria-hidden="true"
-                ></i>
+                <i className="fa-solid fa-envelope" aria-hidden="true"></i>
                 <a href="mailto:contact@corpsolution.com">
                   contact@corpsolution.com
                 </a>
               </div>
 
               <div className="contact-detail">
-                <i
-                  className="fa-solid fa-phone"
-                  aria-hidden="true"
-                ></i>
-                <a href="tel:+15551234567">
-                  +1 (555) 123-4567
-                </a>
+                <i className="fa-solid fa-phone" aria-hidden="true"></i>
+                <a href="tel:+15551234567">+1 (555) 123-4567</a>
               </div>
 
               <div className="contact-detail">
-                <i
-                  className="fa-solid fa-location-dot"
-                  aria-hidden="true"
-                ></i>
+                <i className="fa-solid fa-location-dot" aria-hidden="true"></i>
                 <span>
                   123 Business Blvd, Suite 400
                   <br />
@@ -593,7 +612,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
     </main>
   );
 };
