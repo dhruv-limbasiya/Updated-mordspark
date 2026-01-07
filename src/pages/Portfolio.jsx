@@ -142,7 +142,6 @@ const Portfolio = () => {
           </div>
           <div className="strip-item">
             <i className="fa-solid fa-location-dot"></i> Maharastra, pune
-            Singapore
           </div>
         </div>
       </div>
