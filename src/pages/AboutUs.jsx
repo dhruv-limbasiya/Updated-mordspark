@@ -242,7 +242,7 @@ export default function AboutUs() {
       <div className="team-card">
         <div className="team-img-box">
           <img
-            src="./avatar.jpg"
+            src="./aditya.png"
             alt="Aditya Pande, Lead Developer"
           />
         </div>
@@ -250,7 +250,7 @@ export default function AboutUs() {
           <h4 className="team-name">Aditya Pande</h4>
           <span className="team-role">Lead Developer</span>
           <p style={{ fontSize: "0.9rem", marginBottom: "10px" }}>
-            Former VP at GlobalBank. 20 years in FinTech strategy.
+            Architecting scalable solutions with expertise in full-stack development and team leadership. Driving technical excellence across all projects.
           </p>
           <div className="team-social">
             <a href="#" aria-label="LinkedIn">
@@ -275,7 +275,7 @@ export default function AboutUs() {
           <h4 className="team-name">Harshal Mahajan</h4>
           <span className="team-role">Full-Stack Developer</span>
           <p style={{ fontSize: "0.9rem", marginBottom: "10px" }}>
-            Ph.D. in Computer Science. Expert in Cloud Architecture.
+            Specializing in end-to-end application development with a focus on seamless integration and optimal performance.
           </p>
           <div className="team-social">
             <a href="#" aria-label="LinkedIn">
@@ -300,7 +300,7 @@ export default function AboutUs() {
           <h4 className="team-name">Dhruv Limbasiya</h4>
           <span className="team-role">Backend Developer</span>
           <p style={{ fontSize: "0.9rem", marginBottom: "10px" }}>
-            Operational scaling expert. Previously at Big4 Consulting.
+            Building robust server-side architectures and APIs. Expert in database optimization and system scalability.
           </p>
           <div className="team-social">
             <a href="#" aria-label="LinkedIn">
@@ -325,7 +325,7 @@ export default function AboutUs() {
           <h4 className="team-name">Rishi Patel</h4>
           <span className="team-role">Frontend Developer (UI Focus)</span>
           <p style={{ fontSize: "0.9rem", marginBottom: "10px" }}>
-            Driving digital transformation roadmaps for key accounts.
+            Crafting intuitive, responsive user interfaces with modern frameworks. Transforming designs into seamless experiences.
           </p>
           <div className="team-social">
             <a href="#" aria-label="LinkedIn">
@@ -342,7 +342,7 @@ export default function AboutUs() {
       <div className="team-card">
         <div className="team-img-box">
           <img
-            src="./avatar.jpg"
+            src="./smit.JPEG"
             alt="Smit Gadhiya, UI / UX Designer"
           />
         </div>
@@ -350,7 +350,7 @@ export default function AboutUs() {
           <h4 className="team-name">Smit Gadhiya</h4>
           <span className="team-role">UI / UX Designer</span>
           <p style={{ fontSize: "0.9rem", marginBottom: "10px" }}>
-            Driving digital transformation roadmaps for key accounts.
+            Designing user-centered experiences that blend aesthetics with functionality. Creating interfaces that users love.
           </p>
           <div className="team-social">
             <a href="#" aria-label="LinkedIn">
@@ -375,7 +375,7 @@ export default function AboutUs() {
           <h4 className="team-name">Jatin Dhokiya</h4>
           <span className="team-role">Quality Assurance (QA)</span>
           <p style={{ fontSize: "0.9rem", marginBottom: "10px" }}>
-            Driving digital transformation roadmaps for key accounts.
+            Ensuring product excellence through rigorous testing methodologies. Committed to delivering bug-free, reliable solutions.
           </p>
           <div className="team-social">
             <a href="#" aria-label="LinkedIn">
@@ -392,7 +392,7 @@ export default function AboutUs() {
       <div className="team-card">
         <div className="team-img-box">
           <img
-            src="./avatar.jpg"
+            src="./sadab.png"
             alt="MD Sadab, Deployment Support"
           />
         </div>
@@ -400,7 +400,7 @@ export default function AboutUs() {
           <h4 className="team-name">MD Sadab</h4>
           <span className="team-role">Deployment Support</span>
           <p style={{ fontSize: "0.9rem", marginBottom: "10px" }}>
-            Driving digital transformation roadmaps for key accounts.
+            Streamlining deployment pipelines and maintaining production environments. Ensuring smooth releases and system stability.
           </p>
           <div className="team-social">
             <a href="#" aria-label="LinkedIn">
@@ -425,7 +425,7 @@ export default function AboutUs() {
           <h4 className="team-name">Fenil Dhanani</h4>
           <span className="team-role">Client Support & Coordination</span>
           <p style={{ fontSize: "0.9rem", marginBottom: "10px" }}>
-            Driving digital transformation roadmaps for key accounts.
+            Bridging technical solutions with client needs. Ensuring clear communication and project alignment at every stage."
           </p>
           <div className="team-social">
             <a href="#" aria-label="LinkedIn">

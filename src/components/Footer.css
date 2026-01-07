@@ -120,7 +120,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 720px) {
   .footer-grid {
     grid-template-columns: 1fr;
     text-align: center;
@@ -133,6 +133,6 @@
 
 @media (max-width: 768px) {
   .footer-logo {
-    font-size: 36px;   /* Still big on mobile */
+    font-size: 36px;
   }
 }
