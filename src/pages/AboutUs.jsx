@@ -417,7 +417,7 @@ export default function AboutUs() {
       <div className="team-card">
         <div className="team-img-box">
           <img
-            src="./avatar.jpg"
+            src="./fenil.JPG"
             alt="Fenil Dhanani, Client Support & Coordination"
           />
         </div>
