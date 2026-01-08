@@ -62,15 +62,14 @@ export default function Contact() {
 
   return (
     <main className="contact-root">
-
       {/* ================= HERO ================= */}
       <section className="hero">
         <div className="container hero-content">
           <div className="hero-text">
             <h1>Let’s Talk Business</h1>
             <p>
-              Have a question or a project in mind? Our team is ready to help you
-              elevate your business to the next level.
+              Have a question or a project in mind? Our team is ready to help
+              you elevate your business to the next level.
             </p>
           </div>
           <div className="hero-visual">
@@ -85,26 +84,33 @@ export default function Contact() {
           <div className="cards-grid">
             <div className="info-card">
               <div className="icon-box">
-                <i className="fas fa-envelope"></i>
+                <i className="fas fa-envelope" aria-hidden="true"></i>
               </div>
+
               <h3>Email Us</h3>
-              <p>
-                <a href="mailto:info@mordspark.com">info@mordspark.com</a>
-              </p>
-              <p>
-                <a href="mailto:support@mordspark.com">support@mordspark.com</a>
-              </p>
+
+              <br />
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=mordspark@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                mordspark@gmail.com
+              </a>
             </div>
 
             <div className="info-card">
               <div className="icon-box">
-                <i className="fas fa-phone-alt"></i>
+                <i className="fas fa-phone-alt" aria-hidden="true"></i>
               </div>
+
               <h3>Call Us</h3>
+
               <p>
-                <a href="tel:+911234567890">+91 9322465522</a>
+                <a href="tel:+919096807019">+91 90968 07019</a>
               </p>
-              <p>Mon-Fri, 9am - 6pm</p>
+
+              <p>Mon–Fri, 9am – 6pm</p>
             </div>
 
             <div className="info-card">
@@ -115,7 +121,7 @@ export default function Contact() {
               <p>Chat with Support</p>
               <p>
                 <a
-                  href="https://wa.me/919876543210"
+                  href="https://wa.me/9096807019"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -222,7 +228,10 @@ export default function Contact() {
                 )}
               </div>
 
-              <div className="form-group full-width" style={{ marginTop: "10px" }}>
+              <div
+                className="form-group full-width"
+                style={{ marginTop: "10px" }}
+              >
                 <button
                   type="submit"
                   className="btn btn-primary"
@@ -238,7 +247,6 @@ export default function Contact() {
           </div>
         </div>
       </section>
-
     </main>
   );
 }

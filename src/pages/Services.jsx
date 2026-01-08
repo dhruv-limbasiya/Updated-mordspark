@@ -6,7 +6,7 @@ const Services = () => {
     <main id="main-content" className="services-root">
       {/* ================= PAGE HERO ================= */}
       <section className="page-hero">
-        <div className="container" style={{ textAlign: "center", }}>
+        <div className="container" style={{ textAlign: "center" }}>
           <span
             className="subheading"
             style={{
@@ -28,7 +28,8 @@ const Services = () => {
             }}
           >
             <p>
-              We provide focused technology services that help organizations build, scale, and operate reliable digital systems.
+              We provide focused technology services that help organizations
+              build, scale, and operate reliable digital systems.
             </p>
 
             <div
@@ -38,15 +39,15 @@ const Services = () => {
                 flexWrap: "wrap",
               }}
             >
-              <a
-                href="#contact"
+              <Link
+                to="/get-a-quote"
                 className="btn btn-secondary btn-quote"
                 style={{ borderColor: "white", color: "white" }}
               >
                 Get a Quote
-              </a>
-              <a
-                href="#core-services"
+              </Link>
+              <Link
+                to="/#core-services"
                 className="btn btn-white"
                 style={{
                   border: "1px solid #ffffff",
@@ -54,10 +55,9 @@ const Services = () => {
                 }}
               >
                 View Services
-              </a>
+              </Link>
             </div>
           </div>
-
         </div>
       </section>
 
@@ -68,7 +68,8 @@ const Services = () => {
             <span className="subheading">What We Offer</span>
             <h2>Core Services</h2>
             <p>
-              Practical technology services designed to support modern enterprises.
+              Practical technology services designed to support modern
+              enterprises.
             </p>
           </header>
 
@@ -77,7 +78,8 @@ const Services = () => {
               <i className="fa-solid fa-chart-pie service-icon" />
               <h3>Data Analytics</h3>
               <p>
-                Helping teams make informed decisions using clear, reliable data.
+                Helping teams make informed decisions using clear, reliable
+                data.
               </p>
               <a href="#analytics-detail" className="service-link">
                 Learn More <i className="fa-solid fa-arrow-right" />
@@ -88,7 +90,8 @@ const Services = () => {
               <i className="fa-solid fa-code service-icon" />
               <h3>Software Dev</h3>
               <p>
-                Custom software built to support scale, security, and long-term use.
+                Custom software built to support scale, security, and long-term
+                use.
               </p>
               <a href="#software-detail" className="service-link">
                 Learn More <i className="fa-solid fa-arrow-right" />
@@ -99,7 +102,8 @@ const Services = () => {
               <i className="fa-solid fa-cloud service-icon" />
               <h3>Cloud Solutions</h3>
               <p>
-                Designing and managing cloud environments that are stable and cost-aware.
+                Designing and managing cloud environments that are stable and
+                cost-aware.
               </p>
               <a href="#cloud-detail" className="service-link">
                 Learn More <i className="fa-solid fa-arrow-right" />
@@ -110,7 +114,8 @@ const Services = () => {
               <i className="fa-solid fa-shield-halved service-icon" />
               <h3>Cyber Security</h3>
               <p>
-                Protecting systems and data through structured security practices.
+                Protecting systems and data through structured security
+                practices.
               </p>
               <a href="#security-detail" className="service-link">
                 Learn More <i className="fa-solid fa-arrow-right" />
@@ -132,7 +137,8 @@ const Services = () => {
               <i className="fa-solid fa-mobile-screen service-icon" />
               <h3>Mobile Apps</h3>
               <p>
-                Mobile solutions focused on performance, usability, and maintainability.
+                Mobile solutions focused on performance, usability, and
+                maintainability.
               </p>
               <a href="#mobile-detail" className="service-link">
                 Learn More <i className="fa-solid fa-arrow-right" />
@@ -151,21 +157,24 @@ const Services = () => {
               <span className="subheading">Data & Intelligence</span>
               <h2>Business Analytics</h2>
               <p>
-                We help organizations organize, analyze, and use data to support planning and operational decisions.
+                We help organizations organize, analyze, and use data to support
+                planning and operational decisions.
               </p>
               <ul className="service-features">
                 <li>
                   <i className="fa-solid fa-check-circle" /> Predictive analysis
                 </li>
                 <li>
-                  <i className="fa-solid fa-check-circle" /> Performance dashboards
-                  (PowerBI / Tableau)
+                  <i className="fa-solid fa-check-circle" /> Performance
+                  dashboards (PowerBI / Tableau)
                 </li>
                 <li>
-                  <i className="fa-solid fa-check-circle" /> Data storage and pipelines
+                  <i className="fa-solid fa-check-circle" /> Data storage and
+                  pipelines
                 </li>
                 <li>
-                  <i className="fa-solid fa-check-circle" /> Large-scale data processing
+                  <i className="fa-solid fa-check-circle" /> Large-scale data
+                  processing
                 </li>
               </ul>
               <a href="#contact" className="btn btn-primary">
@@ -189,7 +198,8 @@ const Services = () => {
               <span className="subheading">Engineering</span>
               <h2>Custom Software Development</h2>
               <p>
-                We design and build custom software tailored to specific operational requirements.
+                We design and build custom software tailored to specific
+                operational requirements.
               </p>
               <ul className="service-features">
                 <li>
@@ -226,21 +236,24 @@ const Services = () => {
               <span className="subheading">Strategy</span>
               <h2>IT Consulting & Strategy</h2>
               <p>
-                We assess existing systems and define practical roadmaps for improvement.
+                We assess existing systems and define practical roadmaps for
+                improvement.
               </p>
               <ul className="service-features">
                 <li>
-                  <i className="fa-solid fa-check-circle" /> Digital
-                  Digital roadmaps
+                  <i className="fa-solid fa-check-circle" /> Digital Digital
+                  roadmaps
                 </li>
                 <li>
-                  <i className="fa-solid fa-check-circle" /> Technology selection
+                  <i className="fa-solid fa-check-circle" /> Technology
+                  selection
                 </li>
                 <li>
                   <i className="fa-solid fa-check-circle" /> Vendor coordination
                 </li>
                 <li>
-                  <i className="fa-solid fa-check-circle" /> Cost and efficiency reviews
+                  <i className="fa-solid fa-check-circle" /> Cost and efficiency
+                  reviews
                 </li>
               </ul>
               <a href="#contact" className="btn btn-primary">
@@ -273,13 +286,7 @@ const Services = () => {
               <i className="fa-solid fa-building-columns" /> FinTech & Banking
             </div>
             <div className="industry-tag">
-              <i className="fa-solid fa-stethoscope" /> Healthcare
-            </div>
-            <div className="industry-tag">
               <i className="fa-solid fa-cart-shopping" /> Retail & E-Commerce
-            </div>
-            <div className="industry-tag">
-              <i className="fa-solid fa-truck-fast" /> Logistics
             </div>
             <div className="industry-tag">
               <i className="fa-solid fa-graduation-cap" /> EdTech
@@ -299,14 +306,18 @@ const Services = () => {
         <div className="container">
           <div className="section-header">
             <h2>Engagement Models</h2>
-            <p>Choose the working model that best fits your project and budget.</p>
+            <p>
+              Choose the working model that best fits your project and budget.
+            </p>
           </div>
 
           <div className="grid-3">
             <div className="card engagement-card">
               <i className="fa-solid fa-file-contract engagement-icon"></i>
               <h4>Fixed Price</h4>
-              <p>Suitable for clearly defined projects with stable requirements.</p>
+              <p>
+                Suitable for clearly defined projects with stable requirements.
+              </p>
               <ul className="engagement-list">
                 <li>Defined scope</li>
                 <li>Predictable timelines</li>
@@ -324,7 +335,9 @@ const Services = () => {
             <div className="card engagement-card">
               <i className="fa-solid fa-hourglass-half engagement-icon"></i>
               <h4>Time &amp; Material</h4>
-              <p>Appropriate for evolving requirements and iterative delivery.</p>
+              <p>
+                Appropriate for evolving requirements and iterative delivery.
+              </p>
               <ul className="engagement-list">
                 <li>Flexible scope</li>
                 <li>Ongoing delivery</li>
@@ -342,7 +355,9 @@ const Services = () => {
             <div className="card engagement-card">
               <i className="fa-solid fa-users-gear engagement-icon"></i>
               <h4>Dedicated Team</h4>
-              <p>A long-term collaboration model with focused team allocation.</p>
+              <p>
+                A long-term collaboration model with focused team allocation.
+              </p>
               <ul className="engagement-list">
                 <li>Consistent team</li>
                 <li>Direct communication</li>
@@ -359,7 +374,6 @@ const Services = () => {
           </div>
         </div>
       </section>
-
     </main>
   );
 };

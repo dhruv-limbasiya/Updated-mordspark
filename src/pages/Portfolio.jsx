@@ -135,10 +135,10 @@ const Portfolio = () => {
       <div className="contact-strip">
         <div className="container strip-flex">
           <div className="strip-item">
-            <i className="fa-solid fa-envelope"></i> contact@modrspark.com
+            <i className="fa-solid fa-envelope"></i> mordspark@gmail.com
           </div>
           <div className="strip-item">
-            <i className="fa-solid fa-phone"></i> +91 9322465522
+            <i className="fa-solid fa-phone"></i>+91 9096807019
           </div>
           <div className="strip-item">
             <i className="fa-solid fa-location-dot"></i> Maharastra, pune

@@ -277,13 +277,13 @@ const Home = () => {
                 <div className="client-avatar">
                   <img
                     src="https://placehold.co/48x48/ccc/333?text=SJ"
-                    alt="Sarah Jenkins"
+                    alt="Viraj Kale"
                   />
                 </div>
                 <div>
-                  <strong>Sarah Jenkins</strong>
+                  <strong>Viraj Kale</strong>
                   <br />
-                  <small>CEO, TechWave</small>
+                  <small>CEO, Aruz</small>
                 </div>
               </div>
             </article>
@@ -300,13 +300,13 @@ const Home = () => {
                 <div className="client-avatar">
                   <img
                     src="https://placehold.co/48x48/ccc/333?text=MR"
-                    alt="Michael Ross"
+                    alt="Raj Gosavi"
                   />
                 </div>
                 <div>
-                  <strong>Michael Ross</strong>
+                  <strong>Raj Gosavi</strong>
                   <br />
-                  <small>Director, Ross Global</small>
+                  <small>CEO, Pustak Market</small>
                 </div>
               </div>
             </article>
@@ -323,13 +323,13 @@ const Home = () => {
                 <div className="client-avatar">
                   <img
                     src="https://placehold.co/48x48/ccc/333?text=DC"
-                    alt="David Chen"
+                    alt="Satvir Goyal"
                   />
                 </div>
                 <div>
-                  <strong>David Chen</strong>
+                  <strong>Satvir Goyal</strong>
                   <br />
-                  <small>CTO, BuildCo</small>
+                  <small>Director, CardPays</small>
                 </div>
               </div>
             </article>
@@ -348,7 +348,7 @@ const Home = () => {
             <div className="card pricing-card">
               <h4>Consultant</h4>
               <div className="plan-price">
-                $999
+                ₹2000 
                 <span
                   style={{
                     fontSize: "1rem",
@@ -376,7 +376,7 @@ const Home = () => {
               <div className="badge-popular">Most Popular</div>
               <h4 style={{ marginTop: "10px" }}>Enterprise</h4>
               <div className="plan-price">
-                $2,499
+                ₹25,000
                 <span
                   style={{
                     fontSize: "1rem",
@@ -391,7 +391,7 @@ const Home = () => {
                 <li>Full Strategy Audit</li>
                 <li>Weekly Reports</li>
                 <li>24/7 Priority Support</li>
-                <li>Dedicated Manager</li>
+                <li>Dedicated Team</li>
               </ul>
               <button className="btn btn-primary" style={{ marginTop: "auto" }}>
                 Choose Plan
@@ -407,13 +407,14 @@ const Home = () => {
                 <li>On-site Training</li>
                 <li>SLA Guarantees</li>
               </ul>
-              <Link
-                to="/contact"
-                className="btn btn-secondary"
-                style={{ marginTop: "auto" }}
-              >
-                Contact Us
-              </Link>
+              <a
+                  className="btn btn-secondary"
+                  href="https://wa.me/9096807019"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Start Chat
+                </a>
             </div>
           </div>
         </div>
@@ -542,22 +543,24 @@ const Home = () => {
 
               <div className="contact-detail">
                 <i className="fa-solid fa-envelope" aria-hidden="true"></i>
-                <a href="mailto:contact@corpsolution.com">
-                  contact@corpsolution.com
-                </a>
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=mordspark@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                mordspark@gmail.com
+              </a>
               </div>
 
               <div className="contact-detail">
                 <i className="fa-solid fa-phone" aria-hidden="true"></i>
-                <a href="tel:+15551234567">+1 (555) 123-4567</a>
+                <a href="tel:+15551234567">+91 9096807019</a>
               </div>
 
               <div className="contact-detail">
                 <i className="fa-solid fa-location-dot" aria-hidden="true"></i>
                 <span>
-                  123 Business Blvd, Suite 400
-                  <br />
-                  New York, NY 10001
+                  Pune, Maharastra
                 </span>
               </div>
             </div>
